@@ -87,7 +87,7 @@ export async function captureCard(card: Card): Promise<Blob> {
   // 희귀도 뱃지
   ctx.fillStyle = frame;
   ctx.font = 'bold 30px sans-serif';
-  ctx.fillText(`★ ${RARITY.label[card.rarity]}`, 60, infoY - 8);
+  ctx.fillText(RARITY.label[card.rarity], 60, infoY - 8);
 
   // 보직/포지션
   ctx.fillStyle = 'rgba(157,177,207,.95)';
@@ -102,7 +102,7 @@ export async function captureCard(card: Card): Promise<Blob> {
   const numWidth = ctx.measureText(numText).width;
   ctx.fillStyle = '#eaf1fb';
   ctx.font = '800 54px sans-serif';
-  ctx.fillText(card.player + (card.signed ? ' ✦' : ''), 60 + numWidth, infoY + 100);
+  ctx.fillText(card.player, 60 + numWidth, infoY + 100);
 
   // 푸터
   ctx.fillStyle = 'rgba(157,177,207,.8)';

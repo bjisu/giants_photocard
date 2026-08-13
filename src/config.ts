@@ -46,7 +46,7 @@ export const COPY = {
     guide: '운명의 한 장을 선택하세요',
   },
   result: {
-    badge: '★ {RARITY}',
+    badge: '{RARITY}',
     legendary: '레전더리 카드 획득!',
     todayChip: '오늘의 카드',
     skip: '건너뛰기',
@@ -58,7 +58,7 @@ export const COPY = {
     save: '저장',
     share: '공유',
     fanTalk: '팬톡에 자랑하기',
-    redraw: '↻ 다시 뽑기',
+    redraw: '다시 뽑기',
     saved: '갤러리에 저장할 이미지를 내려받았어요',
     fanTalkPending: '팬톡 연동 준비 중이에요! 저장·공유로 먼저 자랑해 보세요',
   },

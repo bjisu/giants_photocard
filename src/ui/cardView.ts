@@ -32,7 +32,6 @@ export function buildCardFront(card: Card): HTMLElement {
       <div class="name-line">
         ${card.number >= 0 ? `<span class="num">#${card.number}</span>` : ''}
         <span class="name">${card.player}</span>
-        ${card.signed ? '<span class="signed" title="싸인 카드">✦</span>' : ''}
       </div>
       <div class="card-footer"><span>BUSAN · LOTTE GIANTS</span><span class="brand-sm">Giants</span></div>
     </div>
@@ -77,5 +76,5 @@ export function buildCardBack(manifest: Manifest): HTMLElement {
 }
 
 export function rarityBadgeText(card: Card): string {
-  return `★ ${RARITY.label[card.rarity]}`;
+  return RARITY.label[card.rarity];
 }
