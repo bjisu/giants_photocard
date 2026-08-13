@@ -8,7 +8,7 @@ export function splashScreen(root: HTMLElement, app: AppContext): ScreenControll
     <div class="splash-inner">
       <p class="splash-eyebrow">${COPY.splash.subtitle}</p>
       <h1 class="splash-logo">Giants</h1>
-      <h2 class="splash-title">${COPY.splash.title}<br/>카드깡</h2>
+      <h2 class="splash-title">${COPY.splash.title}<br/>컬렉션</h2>
       <div class="splash-loading">
         <div class="loading-bar"><i></i></div>
         <p class="loading-text">${COPY.splash.loading}</p>
