@@ -20,7 +20,7 @@ export const CONFIG = {
 export const RARITY = {
   order: ['normal', 'rare', 'epic', 'legendary'] as const,
   weights: { normal: 60, rare: 25, epic: 12, legendary: 3 } as Record<Rarity, number>,
-  label: { normal: 'NORMAL', rare: 'RARE', epic: 'EPIC', legendary: 'LEGENDARY' } as Record<Rarity, string>,
+  label: { normal: '노멀 · Normal', rare: '레어 · Rare', epic: '에픽 · Epic', legendary: '레전더리 · Legendary' } as Record<Rarity, string>,
   effect: {
     normal: { glow: 12, particles: 0, confetti: false, vibrate: [10] },
     rare: { glow: 20, particles: 20, confetti: false, vibrate: [15] },
