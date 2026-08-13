@@ -11,7 +11,7 @@ export const CONFIG = {
   SHOW_SKIP: true,
   /** 연타 보조(길게 눌러 한 번에 열기) 버튼 */
   ACCESSIBLE_OPEN: true,
-  /** 하루 1회 카드깡 제한 */
+  /** 하루 1회 컬렉션 제한 */
   DAILY_LIMIT: true,
   /** 일일 제한 리셋 기준 타임존 (KST) */
   RESET_TIMEZONE: 'Asia/Seoul',
@@ -49,11 +49,11 @@ export const COPY = {
     legendary: '레전더리 카드 획득!',
     todayChip: '오늘의 카드',
     skip: '건너뛰기',
-    countdown: '다음 카드깡까지 {t}',
-    comeBack: '카드깡은 하루에 한 번! 내일 다시 만나요',
+    countdown: '다음 컬렉션까지 {t}',
+    comeBack: '컬렉션은 하루에 한 번! 내일 다시 만나요',
   },
   share: {
-    text: '{player} 카드를 뽑았어요! #롯데자이언츠 #포토카드깡',
+    text: '{player} 카드를 뽑았어요! #롯데자이언츠 #포토카드컬렉션',
     save: '저장',
     share: '공유',
     fanTalk: '팬톡에 자랑하기',
