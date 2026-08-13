@@ -62,7 +62,7 @@ async function boot(): Promise<void> {
   soundBtn.className = 'sound-toggle';
   soundBtn.type = 'button';
   soundBtn.setAttribute('aria-label', '사운드 켜기/끄기');
-  const renderSound = () => (soundBtn.textContent = sfx.enabled ? '🔊' : '🔇');
+  const renderSound = () => (soundBtn.textContent = sfx.enabled ? 'ON' : 'OFF');
   renderSound();
   soundBtn.addEventListener('click', () => {
     sfx.toggle();
