@@ -1,6 +1,5 @@
 import { RARITY } from '../config';
 import { haptics } from '../fx/haptics';
-import { sfx } from '../fx/sfx';
 import { confetti, spawnBurst } from '../fx/particles';
 import { buildCardFront } from '../ui/cardView';
 import type { Card } from '../types';
@@ -44,7 +43,6 @@ export async function runFlipSequence(holder: HTMLElement, card: Card): Promise<
   // 반짝임 sweep + 희귀도 연출
   front.classList.add('shine-run', `glow-${card.rarity}`);
   haptics.pattern(fx.vibrate);
-  sfx.play(fx.sfx);
 
   const rect = holder.getBoundingClientRect();
   const cx = rect.left + rect.width / 2;

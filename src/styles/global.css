@@ -589,23 +589,6 @@ button {
   text-underline-offset: 3px;
 }
 
-/* ---------- 공통 위젯 ---------- */
-.sound-toggle {
-  position: fixed;
-  top: calc(var(--safe-top) + 14px);
-  right: 16px;
-  z-index: 70;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.14);
-  font-size: 11px;
-  font-weight: 700;
-  color: rgba(255, 255, 255, 0.85);
-  display: grid;
-  place-items: center;
-}
 
 .toast {
   position: fixed;

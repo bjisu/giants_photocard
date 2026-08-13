@@ -4,7 +4,6 @@ import './styles/card.css';
 
 import { loadManifest, preloadImages } from './data';
 import { getTodayDraw } from './daily';
-import { sfx } from './fx/sfx';
 import { clearParticles } from './fx/particles';
 import { splashScreen } from './screens/splash';
 import { tearScreen } from './screens/tear';
@@ -56,19 +55,6 @@ async function boot(): Promise<void> {
       }
     },
   };
-
-  // 사운드 토글 (전 화면 공통)
-  const soundBtn = document.createElement('button');
-  soundBtn.className = 'sound-toggle';
-  soundBtn.type = 'button';
-  soundBtn.setAttribute('aria-label', '사운드 켜기/끄기');
-  const renderSound = () => (soundBtn.textContent = sfx.enabled ? 'ON' : 'OFF');
-  renderSound();
-  soundBtn.addEventListener('click', () => {
-    sfx.toggle();
-    renderSound();
-  });
-  document.body.appendChild(soundBtn);
 
   app.go('SPLASH');
 }

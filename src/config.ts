@@ -7,7 +7,6 @@ export const CONFIG = {
   REVEAL_LOCK_SEC: 5,
   /** 스플래시 최소 노출(ms) */
   SPLASH_MS: 2000,
-  SOUND_DEFAULT: true,
   /** 5초 건너뛰기 노출 */
   SHOW_SKIP: true,
   /** 연타 보조(길게 눌러 한 번에 열기) 버튼 */
@@ -23,10 +22,10 @@ export const RARITY = {
   weights: { normal: 60, rare: 25, epic: 12, legendary: 3 } as Record<Rarity, number>,
   label: { normal: 'NORMAL', rare: 'RARE', epic: 'EPIC', legendary: 'LEGENDARY' } as Record<Rarity, string>,
   effect: {
-    normal: { glow: 12, particles: 0, confetti: false, vibrate: [10], sfx: null as string | null },
-    rare: { glow: 20, particles: 20, confetti: false, vibrate: [15], sfx: 'reveal' as string | null },
-    epic: { glow: 30, particles: 40, confetti: false, vibrate: [20, 40, 20], sfx: 'reveal' as string | null },
-    legendary: { glow: 44, particles: 80, confetti: true, vibrate: [30, 60, 30, 120], sfx: 'legendary' as string | null },
+    normal: { glow: 12, particles: 0, confetti: false, vibrate: [10] },
+    rare: { glow: 20, particles: 20, confetti: false, vibrate: [15] },
+    epic: { glow: 30, particles: 40, confetti: false, vibrate: [20, 40, 20] },
+    legendary: { glow: 44, particles: 80, confetti: true, vibrate: [30, 60, 30, 120] },
   } as const,
 } as const;
 

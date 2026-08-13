@@ -3,7 +3,6 @@ import { localDrawEngine } from '../drawEngine';
 import { saveTodayDraw } from '../daily';
 import { preloadImages } from '../data';
 import { haptics } from '../fx/haptics';
-import { sfx } from '../fx/sfx';
 import { spawnTearBits } from '../fx/particles';
 import { buildCardBack } from '../ui/cardView';
 import type { AppContext, ScreenController } from '../types';
@@ -118,7 +117,6 @@ export function tearScreen(root: HTMLElement, app: AppContext): ScreenController
     render(progress);
     spawnTearBits(e.clientX, e.clientY, 3 + Math.floor(Math.random() * 3));
     haptics.tap();
-    sfx.play('tear');
     pack.classList.remove('poked');
     void pack.offsetWidth; // 리플로우로 애니 재시작
     pack.classList.add('poked');
