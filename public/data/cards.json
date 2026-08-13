@@ -1,4 +1,4 @@
-{
+﻿{
   "season": "2026",
   "backImage": "assets/card-back.webp",
   "cards": [
@@ -9,7 +9,7 @@
       "position": "감독",
       "role": "MANAGER",
       "rarity": "legendary",
-      "image": "assets/cards/card-001.png",
+      "image": "assets/cards/card-001.webp",
       "signed": true
     },
     {
@@ -19,7 +19,7 @@
       "position": "코치",
       "role": "수석코치",
       "rarity": "rare",
-      "image": "assets/cards/card-002.png"
+      "image": "assets/cards/card-002.webp"
     },
     {
       "id": "g003",
@@ -28,7 +28,7 @@
       "position": "코치",
       "role": "투수총괄",
       "rarity": "normal",
-      "image": "assets/cards/card-003.png"
+      "image": "assets/cards/card-003.webp"
     },
     {
       "id": "g004",
@@ -37,7 +37,7 @@
       "position": "코치",
       "role": "투수(메인)",
       "rarity": "normal",
-      "image": "assets/cards/card-004.png"
+      "image": "assets/cards/card-004.webp"
     },
     {
       "id": "g005",
@@ -46,7 +46,7 @@
       "position": "코치",
       "role": "투수(불펜)",
       "rarity": "normal",
-      "image": "assets/cards/card-005.png"
+      "image": "assets/cards/card-005.webp"
     },
     {
       "id": "g006",
@@ -55,7 +55,7 @@
       "position": "코치",
       "role": "타격(메인)",
       "rarity": "normal",
-      "image": "assets/cards/card-006.png"
+      "image": "assets/cards/card-006.webp"
     },
     {
       "id": "g007",
@@ -64,7 +64,7 @@
       "position": "코치",
       "role": "타격(보조)",
       "rarity": "normal",
-      "image": "assets/cards/card-007.png"
+      "image": "assets/cards/card-007.webp"
     },
     {
       "id": "g008",
@@ -73,7 +73,7 @@
       "position": "코치",
       "role": "배터리코치",
       "rarity": "normal",
-      "image": "assets/cards/card-008.png"
+      "image": "assets/cards/card-008.webp"
     },
     {
       "id": "g009",
@@ -82,7 +82,7 @@
       "position": "코치",
       "role": "수비코치",
       "rarity": "normal",
-      "image": "assets/cards/card-009.png"
+      "image": "assets/cards/card-009.webp"
     },
     {
       "id": "g010",
@@ -91,7 +91,7 @@
       "position": "코치",
       "role": "수비코치",
       "rarity": "normal",
-      "image": "assets/cards/card-010.png"
+      "image": "assets/cards/card-010.webp"
     },
     {
       "id": "g011",
@@ -100,7 +100,7 @@
       "position": "코치",
       "role": "작전/주루 코치",
       "rarity": "normal",
-      "image": "assets/cards/card-011.png"
+      "image": "assets/cards/card-011.webp"
     },
     {
       "id": "g012",
@@ -109,7 +109,7 @@
       "position": "코치",
       "role": "퓨처스 감독",
       "rarity": "rare",
-      "image": "assets/cards/card-012.png"
+      "image": "assets/cards/card-012.webp"
     },
     {
       "id": "g013",
@@ -118,7 +118,7 @@
       "position": "코치",
       "role": "퓨처스 수석코치",
       "rarity": "normal",
-      "image": "assets/cards/card-013.png"
+      "image": "assets/cards/card-013.webp"
     },
     {
       "id": "g014",
@@ -127,7 +127,7 @@
       "position": "코치",
       "role": "퓨처스 투수(메인)",
       "rarity": "normal",
-      "image": "assets/cards/card-014.png"
+      "image": "assets/cards/card-014.webp"
     },
     {
       "id": "g015",
@@ -136,7 +136,7 @@
       "position": "코치",
       "role": "퓨처스 투수(불펜)",
       "rarity": "normal",
-      "image": "assets/cards/card-015.png"
+      "image": "assets/cards/card-015.webp"
     },
     {
       "id": "g016",
@@ -145,7 +145,7 @@
       "position": "코치",
       "role": "퓨처스 배터리코치",
       "rarity": "normal",
-      "image": "assets/cards/card-016.png"
+      "image": "assets/cards/card-016.webp"
     },
     {
       "id": "g017",
@@ -154,7 +154,7 @@
       "position": "코치",
       "role": "퓨처스 수비코치",
       "rarity": "normal",
-      "image": "assets/cards/card-017.png"
+      "image": "assets/cards/card-017.webp"
     },
     {
       "id": "g018",
@@ -163,7 +163,7 @@
       "position": "코치",
       "role": "드림팀 총괄코치",
       "rarity": "normal",
-      "image": "assets/cards/card-018.png"
+      "image": "assets/cards/card-018.webp"
     },
     {
       "id": "g019",
@@ -172,7 +172,7 @@
       "position": "코치",
       "role": "드림팀 타격코치",
       "rarity": "normal",
-      "image": "assets/cards/card-019.png"
+      "image": "assets/cards/card-019.webp"
     },
     {
       "id": "g020",
@@ -181,7 +181,7 @@
       "position": "코치",
       "role": "드림팀 수비코치",
       "rarity": "normal",
-      "image": "assets/cards/card-020.png"
+      "image": "assets/cards/card-020.webp"
     },
     {
       "id": "g021",
@@ -190,7 +190,7 @@
       "position": "코치",
       "role": "퍼포먼스 코치",
       "rarity": "normal",
-      "image": "assets/cards/card-021.png"
+      "image": "assets/cards/card-021.webp"
     },
     {
       "id": "g022",
@@ -199,7 +199,7 @@
       "position": "코치",
       "role": "S&C 코치",
       "rarity": "normal",
-      "image": "assets/cards/card-022.png"
+      "image": "assets/cards/card-022.webp"
     },
     {
       "id": "g023",
@@ -208,7 +208,7 @@
       "position": "코치",
       "role": "트레이닝 코치",
       "rarity": "normal",
-      "image": "assets/cards/card-023.png"
+      "image": "assets/cards/card-023.webp"
     },
     {
       "id": "g024",
@@ -217,7 +217,7 @@
       "position": "코치",
       "role": "트레이닝 코치",
       "rarity": "normal",
-      "image": "assets/cards/card-024.png"
+      "image": "assets/cards/card-024.webp"
     },
     {
       "id": "g025",
@@ -226,7 +226,7 @@
       "position": "코치",
       "role": "트레이닝 코치",
       "rarity": "normal",
-      "image": "assets/cards/card-025.png"
+      "image": "assets/cards/card-025.webp"
     },
     {
       "id": "g026",
@@ -235,7 +235,7 @@
       "position": "코치",
       "role": "트레이닝 코치",
       "rarity": "normal",
-      "image": "assets/cards/card-026.png"
+      "image": "assets/cards/card-026.webp"
     },
     {
       "id": "g027",
@@ -244,7 +244,7 @@
       "position": "코치",
       "role": "트레이닝 코치",
       "rarity": "normal",
-      "image": "assets/cards/card-027.png"
+      "image": "assets/cards/card-027.webp"
     },
     {
       "id": "g028",
@@ -253,7 +253,7 @@
       "position": "코치",
       "role": "트레이닝 코치",
       "rarity": "normal",
-      "image": "assets/cards/card-028.png"
+      "image": "assets/cards/card-028.webp"
     },
     {
       "id": "g029",
@@ -262,7 +262,7 @@
       "position": "코치",
       "role": "트레이닝 코치",
       "rarity": "normal",
-      "image": "assets/cards/card-029.png"
+      "image": "assets/cards/card-029.webp"
     },
     {
       "id": "g030",
@@ -271,7 +271,7 @@
       "position": "코치",
       "role": "트레이닝 코치",
       "rarity": "normal",
-      "image": "assets/cards/card-030.png"
+      "image": "assets/cards/card-030.webp"
     },
     {
       "id": "g031",
@@ -280,7 +280,7 @@
       "position": "코치",
       "role": "트레이닝 코치",
       "rarity": "normal",
-      "image": "assets/cards/card-031.png"
+      "image": "assets/cards/card-031.webp"
     },
     {
       "id": "g032",
@@ -289,7 +289,7 @@
       "position": "코치",
       "role": "트레이닝 코치",
       "rarity": "normal",
-      "image": "assets/cards/card-032.png"
+      "image": "assets/cards/card-032.webp"
     },
     {
       "id": "g033",
@@ -298,7 +298,7 @@
       "position": "코치",
       "role": "트레이닝 코치",
       "rarity": "normal",
-      "image": "assets/cards/card-033.png"
+      "image": "assets/cards/card-033.webp"
     },
     {
       "id": "g034",
@@ -307,7 +307,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "epic",
-      "image": "assets/cards/card-034.png"
+      "image": "assets/cards/card-034.webp"
     },
     {
       "id": "g035",
@@ -316,7 +316,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "rare",
-      "image": "assets/cards/card-035.png"
+      "image": "assets/cards/card-035.webp"
     },
     {
       "id": "g036",
@@ -325,7 +325,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-036.png"
+      "image": "assets/cards/card-036.webp"
     },
     {
       "id": "g037",
@@ -334,7 +334,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-037.png"
+      "image": "assets/cards/card-037.webp"
     },
     {
       "id": "g038",
@@ -343,7 +343,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "epic",
-      "image": "assets/cards/card-038.png"
+      "image": "assets/cards/card-038.webp"
     },
     {
       "id": "g039",
@@ -352,7 +352,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-039.png"
+      "image": "assets/cards/card-039.webp"
     },
     {
       "id": "g040",
@@ -361,7 +361,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "rare",
-      "image": "assets/cards/card-040.png"
+      "image": "assets/cards/card-040.webp"
     },
     {
       "id": "g041",
@@ -370,7 +370,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-041.png"
+      "image": "assets/cards/card-041.webp"
     },
     {
       "id": "g042",
@@ -379,7 +379,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-042.png"
+      "image": "assets/cards/card-042.webp"
     },
     {
       "id": "g043",
@@ -388,7 +388,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-043.png"
+      "image": "assets/cards/card-043.webp"
     },
     {
       "id": "g044",
@@ -397,7 +397,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-044.png"
+      "image": "assets/cards/card-044.webp"
     },
     {
       "id": "g045",
@@ -406,7 +406,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-045.png"
+      "image": "assets/cards/card-045.webp"
     },
     {
       "id": "g046",
@@ -415,7 +415,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-046.png"
+      "image": "assets/cards/card-046.webp"
     },
     {
       "id": "g047",
@@ -424,7 +424,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-047.png"
+      "image": "assets/cards/card-047.webp"
     },
     {
       "id": "g048",
@@ -433,7 +433,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "epic",
-      "image": "assets/cards/card-048.png"
+      "image": "assets/cards/card-048.webp"
     },
     {
       "id": "g049",
@@ -442,7 +442,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-049.png"
+      "image": "assets/cards/card-049.webp"
     },
     {
       "id": "g050",
@@ -451,7 +451,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-050.png"
+      "image": "assets/cards/card-050.webp"
     },
     {
       "id": "g051",
@@ -460,7 +460,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-051.png"
+      "image": "assets/cards/card-051.webp"
     },
     {
       "id": "g052",
@@ -469,7 +469,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "legendary",
-      "image": "assets/cards/card-052.png",
+      "image": "assets/cards/card-052.webp",
       "signed": true
     },
     {
@@ -479,7 +479,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-053.png"
+      "image": "assets/cards/card-053.webp"
     },
     {
       "id": "g054",
@@ -488,7 +488,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-054.png"
+      "image": "assets/cards/card-054.webp"
     },
     {
       "id": "g055",
@@ -497,7 +497,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-055.png"
+      "image": "assets/cards/card-055.webp"
     },
     {
       "id": "g056",
@@ -506,7 +506,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-056.png"
+      "image": "assets/cards/card-056.webp"
     },
     {
       "id": "g057",
@@ -515,7 +515,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "rare",
-      "image": "assets/cards/card-057.png"
+      "image": "assets/cards/card-057.webp"
     },
     {
       "id": "g058",
@@ -524,7 +524,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-058.png"
+      "image": "assets/cards/card-058.webp"
     },
     {
       "id": "g059",
@@ -533,7 +533,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-059.png"
+      "image": "assets/cards/card-059.webp"
     },
     {
       "id": "g060",
@@ -542,7 +542,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-060.png"
+      "image": "assets/cards/card-060.webp"
     },
     {
       "id": "g061",
@@ -551,7 +551,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "epic",
-      "image": "assets/cards/card-061.png"
+      "image": "assets/cards/card-061.webp"
     },
     {
       "id": "g062",
@@ -560,7 +560,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "rare",
-      "image": "assets/cards/card-062.png"
+      "image": "assets/cards/card-062.webp"
     },
     {
       "id": "g063",
@@ -569,7 +569,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "rare",
-      "image": "assets/cards/card-063.png"
+      "image": "assets/cards/card-063.webp"
     },
     {
       "id": "g064",
@@ -578,7 +578,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-064.png"
+      "image": "assets/cards/card-064.webp"
     },
     {
       "id": "g065",
@@ -587,7 +587,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "rare",
-      "image": "assets/cards/card-065.png"
+      "image": "assets/cards/card-065.webp"
     },
     {
       "id": "g066",
@@ -596,7 +596,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-066.png"
+      "image": "assets/cards/card-066.webp"
     },
     {
       "id": "g067",
@@ -605,7 +605,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "rare",
-      "image": "assets/cards/card-067.png"
+      "image": "assets/cards/card-067.webp"
     },
     {
       "id": "g068",
@@ -614,7 +614,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-068.png"
+      "image": "assets/cards/card-068.webp"
     },
     {
       "id": "g069",
@@ -623,7 +623,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-069.png"
+      "image": "assets/cards/card-069.webp"
     },
     {
       "id": "g070",
@@ -632,7 +632,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-070.png"
+      "image": "assets/cards/card-070.webp"
     },
     {
       "id": "g071",
@@ -641,7 +641,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-071.png"
+      "image": "assets/cards/card-071.webp"
     },
     {
       "id": "g072",
@@ -650,7 +650,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-072.png"
+      "image": "assets/cards/card-072.webp"
     },
     {
       "id": "g073",
@@ -659,7 +659,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "rare",
-      "image": "assets/cards/card-073.png"
+      "image": "assets/cards/card-073.webp"
     },
     {
       "id": "g074",
@@ -668,7 +668,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-074.png"
+      "image": "assets/cards/card-074.webp"
     },
     {
       "id": "g075",
@@ -677,7 +677,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "rare",
-      "image": "assets/cards/card-075.png"
+      "image": "assets/cards/card-075.webp"
     },
     {
       "id": "g076",
@@ -686,7 +686,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "rare",
-      "image": "assets/cards/card-076.png"
+      "image": "assets/cards/card-076.webp"
     },
     {
       "id": "g077",
@@ -695,7 +695,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "epic",
-      "image": "assets/cards/card-077.png"
+      "image": "assets/cards/card-077.webp"
     },
     {
       "id": "g078",
@@ -704,7 +704,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-078.png"
+      "image": "assets/cards/card-078.webp"
     },
     {
       "id": "g079",
@@ -713,7 +713,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-079.png"
+      "image": "assets/cards/card-079.webp"
     },
     {
       "id": "g080",
@@ -722,7 +722,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "rare",
-      "image": "assets/cards/card-080.png"
+      "image": "assets/cards/card-080.webp"
     },
     {
       "id": "g081",
@@ -731,7 +731,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "epic",
-      "image": "assets/cards/card-081.png"
+      "image": "assets/cards/card-081.webp"
     },
     {
       "id": "g082",
@@ -740,7 +740,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-082.png"
+      "image": "assets/cards/card-082.webp"
     },
     {
       "id": "g083",
@@ -749,7 +749,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "rare",
-      "image": "assets/cards/card-083.png"
+      "image": "assets/cards/card-083.webp"
     },
     {
       "id": "g084",
@@ -758,7 +758,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-084.png"
+      "image": "assets/cards/card-084.webp"
     },
     {
       "id": "g085",
@@ -767,7 +767,7 @@
       "position": "P",
       "role": "PITCHER",
       "rarity": "rare",
-      "image": "assets/cards/card-085.png"
+      "image": "assets/cards/card-085.webp"
     },
     {
       "id": "g086",
@@ -776,7 +776,7 @@
       "position": "C",
       "role": "CATCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-086.png"
+      "image": "assets/cards/card-086.webp"
     },
     {
       "id": "g087",
@@ -785,7 +785,7 @@
       "position": "C",
       "role": "CATCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-087.png"
+      "image": "assets/cards/card-087.webp"
     },
     {
       "id": "g088",
@@ -794,7 +794,7 @@
       "position": "C",
       "role": "CATCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-088.png"
+      "image": "assets/cards/card-088.webp"
     },
     {
       "id": "g089",
@@ -803,7 +803,7 @@
       "position": "C",
       "role": "CATCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-089.png"
+      "image": "assets/cards/card-089.webp"
     },
     {
       "id": "g090",
@@ -812,7 +812,7 @@
       "position": "C",
       "role": "CATCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-090.png"
+      "image": "assets/cards/card-090.webp"
     },
     {
       "id": "g091",
@@ -821,7 +821,7 @@
       "position": "C",
       "role": "CATCHER",
       "rarity": "rare",
-      "image": "assets/cards/card-091.png"
+      "image": "assets/cards/card-091.webp"
     },
     {
       "id": "g092",
@@ -830,7 +830,7 @@
       "position": "C",
       "role": "CATCHER",
       "rarity": "epic",
-      "image": "assets/cards/card-092.png"
+      "image": "assets/cards/card-092.webp"
     },
     {
       "id": "g093",
@@ -839,7 +839,7 @@
       "position": "C",
       "role": "CATCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-093.png"
+      "image": "assets/cards/card-093.webp"
     },
     {
       "id": "g094",
@@ -848,7 +848,7 @@
       "position": "C",
       "role": "CATCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-094.png"
+      "image": "assets/cards/card-094.webp"
     },
     {
       "id": "g095",
@@ -857,7 +857,7 @@
       "position": "C",
       "role": "CATCHER",
       "rarity": "rare",
-      "image": "assets/cards/card-095.png"
+      "image": "assets/cards/card-095.webp"
     },
     {
       "id": "g096",
@@ -866,7 +866,7 @@
       "position": "C",
       "role": "CATCHER",
       "rarity": "normal",
-      "image": "assets/cards/card-096.png"
+      "image": "assets/cards/card-096.webp"
     },
     {
       "id": "g097",
@@ -875,7 +875,7 @@
       "position": "IF",
       "role": "INFIELDER",
       "rarity": "epic",
-      "image": "assets/cards/card-097.png"
+      "image": "assets/cards/card-097.webp"
     },
     {
       "id": "g098",
@@ -884,7 +884,7 @@
       "position": "IF",
       "role": "INFIELDER",
       "rarity": "rare",
-      "image": "assets/cards/card-098.png"
+      "image": "assets/cards/card-098.webp"
     },
     {
       "id": "g099",
@@ -893,7 +893,7 @@
       "position": "IF",
       "role": "INFIELDER",
       "rarity": "normal",
-      "image": "assets/cards/card-099.png"
+      "image": "assets/cards/card-099.webp"
     },
     {
       "id": "g100",
@@ -902,7 +902,7 @@
       "position": "IF",
       "role": "INFIELDER",
       "rarity": "normal",
-      "image": "assets/cards/card-100.png"
+      "image": "assets/cards/card-100.webp"
     },
     {
       "id": "g101",
@@ -911,7 +911,7 @@
       "position": "IF",
       "role": "INFIELDER",
       "rarity": "epic",
-      "image": "assets/cards/card-101.png"
+      "image": "assets/cards/card-101.webp"
     },
     {
       "id": "g102",
@@ -920,7 +920,7 @@
       "position": "IF",
       "role": "INFIELDER",
       "rarity": "rare",
-      "image": "assets/cards/card-102.png"
+      "image": "assets/cards/card-102.webp"
     },
     {
       "id": "g103",
@@ -929,7 +929,7 @@
       "position": "IF",
       "role": "INFIELDER",
       "rarity": "rare",
-      "image": "assets/cards/card-103.png"
+      "image": "assets/cards/card-103.webp"
     },
     {
       "id": "g104",
@@ -938,7 +938,7 @@
       "position": "IF",
       "role": "INFIELDER",
       "rarity": "normal",
-      "image": "assets/cards/card-104.png"
+      "image": "assets/cards/card-104.webp"
     },
     {
       "id": "g105",
@@ -947,7 +947,7 @@
       "position": "IF",
       "role": "INFIELDER",
       "rarity": "rare",
-      "image": "assets/cards/card-105.png"
+      "image": "assets/cards/card-105.webp"
     },
     {
       "id": "g106",
@@ -956,7 +956,7 @@
       "position": "IF",
       "role": "INFIELDER",
       "rarity": "normal",
-      "image": "assets/cards/card-106.png"
+      "image": "assets/cards/card-106.webp"
     },
     {
       "id": "g107",
@@ -965,7 +965,7 @@
       "position": "IF",
       "role": "INFIELDER",
       "rarity": "normal",
-      "image": "assets/cards/card-107.png"
+      "image": "assets/cards/card-107.webp"
     },
     {
       "id": "g108",
@@ -974,7 +974,7 @@
       "position": "IF",
       "role": "INFIELDER",
       "rarity": "normal",
-      "image": "assets/cards/card-108.png"
+      "image": "assets/cards/card-108.webp"
     },
     {
       "id": "g109",
@@ -983,7 +983,7 @@
       "position": "IF",
       "role": "INFIELDER",
       "rarity": "normal",
-      "image": "assets/cards/card-109.png"
+      "image": "assets/cards/card-109.webp"
     },
     {
       "id": "g110",
@@ -992,7 +992,7 @@
       "position": "IF",
       "role": "INFIELDER",
       "rarity": "normal",
-      "image": "assets/cards/card-110.png"
+      "image": "assets/cards/card-110.webp"
     },
     {
       "id": "g111",
@@ -1001,7 +1001,7 @@
       "position": "IF",
       "role": "INFIELDER",
       "rarity": "normal",
-      "image": "assets/cards/card-111.png"
+      "image": "assets/cards/card-111.webp"
     },
     {
       "id": "g112",
@@ -1010,7 +1010,7 @@
       "position": "IF",
       "role": "INFIELDER",
       "rarity": "rare",
-      "image": "assets/cards/card-112.png"
+      "image": "assets/cards/card-112.webp"
     },
     {
       "id": "g113",
@@ -1019,7 +1019,7 @@
       "position": "IF",
       "role": "INFIELDER",
       "rarity": "rare",
-      "image": "assets/cards/card-113.png"
+      "image": "assets/cards/card-113.webp"
     },
     {
       "id": "g114",
@@ -1028,7 +1028,7 @@
       "position": "IF",
       "role": "INFIELDER",
       "rarity": "normal",
-      "image": "assets/cards/card-114.png"
+      "image": "assets/cards/card-114.webp"
     },
     {
       "id": "g115",
@@ -1037,7 +1037,7 @@
       "position": "IF",
       "role": "INFIELDER",
       "rarity": "epic",
-      "image": "assets/cards/card-115.png"
+      "image": "assets/cards/card-115.webp"
     },
     {
       "id": "g116",
@@ -1046,7 +1046,7 @@
       "position": "IF",
       "role": "INFIELDER",
       "rarity": "rare",
-      "image": "assets/cards/card-116.png"
+      "image": "assets/cards/card-116.webp"
     },
     {
       "id": "g117",
@@ -1055,7 +1055,7 @@
       "position": "IF",
       "role": "INFIELDER",
       "rarity": "normal",
-      "image": "assets/cards/card-117.png"
+      "image": "assets/cards/card-117.webp"
     },
     {
       "id": "g118",
@@ -1064,7 +1064,7 @@
       "position": "OF",
       "role": "OUTFIELDER",
       "rarity": "normal",
-      "image": "assets/cards/card-118.png"
+      "image": "assets/cards/card-118.webp"
     },
     {
       "id": "g119",
@@ -1073,7 +1073,7 @@
       "position": "OF",
       "role": "OUTFIELDER",
       "rarity": "normal",
-      "image": "assets/cards/card-119.png"
+      "image": "assets/cards/card-119.webp"
     },
     {
       "id": "g120",
@@ -1082,7 +1082,7 @@
       "position": "OF",
       "role": "OUTFIELDER",
       "rarity": "normal",
-      "image": "assets/cards/card-120.png"
+      "image": "assets/cards/card-120.webp"
     },
     {
       "id": "g121",
@@ -1091,7 +1091,7 @@
       "position": "OF",
       "role": "OUTFIELDER",
       "rarity": "normal",
-      "image": "assets/cards/card-121.png"
+      "image": "assets/cards/card-121.webp"
     },
     {
       "id": "g122",
@@ -1100,7 +1100,7 @@
       "position": "OF",
       "role": "OUTFIELDER",
       "rarity": "normal",
-      "image": "assets/cards/card-122.png"
+      "image": "assets/cards/card-122.webp"
     },
     {
       "id": "g123",
@@ -1109,7 +1109,7 @@
       "position": "OF",
       "role": "OUTFIELDER",
       "rarity": "epic",
-      "image": "assets/cards/card-123.png"
+      "image": "assets/cards/card-123.webp"
     },
     {
       "id": "g124",
@@ -1118,7 +1118,7 @@
       "position": "OF",
       "role": "OUTFIELDER",
       "rarity": "normal",
-      "image": "assets/cards/card-124.png"
+      "image": "assets/cards/card-124.webp"
     },
     {
       "id": "g125",
@@ -1127,7 +1127,7 @@
       "position": "OF",
       "role": "OUTFIELDER",
       "rarity": "epic",
-      "image": "assets/cards/card-125.png"
+      "image": "assets/cards/card-125.webp"
     },
     {
       "id": "g126",
@@ -1136,7 +1136,7 @@
       "position": "OF",
       "role": "OUTFIELDER",
       "rarity": "rare",
-      "image": "assets/cards/card-126.png"
+      "image": "assets/cards/card-126.webp"
     },
     {
       "id": "g127",
@@ -1145,7 +1145,7 @@
       "position": "OF",
       "role": "OUTFIELDER",
       "rarity": "normal",
-      "image": "assets/cards/card-127.png"
+      "image": "assets/cards/card-127.webp"
     },
     {
       "id": "g128",
@@ -1154,7 +1154,7 @@
       "position": "OF",
       "role": "OUTFIELDER",
       "rarity": "normal",
-      "image": "assets/cards/card-128.png"
+      "image": "assets/cards/card-128.webp"
     },
     {
       "id": "g129",
@@ -1163,7 +1163,7 @@
       "position": "OF",
       "role": "OUTFIELDER",
       "rarity": "legendary",
-      "image": "assets/cards/card-129.png",
+      "image": "assets/cards/card-129.webp",
       "signed": true
     },
     {
@@ -1173,7 +1173,7 @@
       "position": "OF",
       "role": "OUTFIELDER",
       "rarity": "normal",
-      "image": "assets/cards/card-130.png"
+      "image": "assets/cards/card-130.webp"
     },
     {
       "id": "g131",
@@ -1182,7 +1182,7 @@
       "position": "OF",
       "role": "OUTFIELDER",
       "rarity": "normal",
-      "image": "assets/cards/card-131.png"
+      "image": "assets/cards/card-131.webp"
     },
     {
       "id": "g132",
@@ -1191,7 +1191,7 @@
       "position": "OF",
       "role": "OUTFIELDER",
       "rarity": "normal",
-      "image": "assets/cards/card-132.png"
+      "image": "assets/cards/card-132.webp"
     },
     {
       "id": "g133",
@@ -1200,7 +1200,7 @@
       "position": "OF",
       "role": "OUTFIELDER",
       "rarity": "rare",
-      "image": "assets/cards/card-133.png"
+      "image": "assets/cards/card-133.webp"
     },
     {
       "id": "g134",
@@ -1209,7 +1209,7 @@
       "position": "OF",
       "role": "OUTFIELDER",
       "rarity": "legendary",
-      "image": "assets/cards/card-134.png",
+      "image": "assets/cards/card-134.webp",
       "signed": true
     },
     {
@@ -1219,7 +1219,7 @@
       "position": "OF",
       "role": "OUTFIELDER",
       "rarity": "normal",
-      "image": "assets/cards/card-135.png"
+      "image": "assets/cards/card-135.webp"
     },
     {
       "id": "g136",
@@ -1228,7 +1228,7 @@
       "position": "OF",
       "role": "OUTFIELDER",
       "rarity": "rare",
-      "image": "assets/cards/card-136.png"
+      "image": "assets/cards/card-136.webp"
     },
     {
       "id": "g137",
@@ -1237,7 +1237,7 @@
       "position": "OF",
       "role": "OUTFIELDER",
       "rarity": "epic",
-      "image": "assets/cards/card-137.png"
+      "image": "assets/cards/card-137.webp"
     }
   ]
 }
