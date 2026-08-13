@@ -1,0 +1,30 @@
+:root {
+  /* 브랜드 */
+  --navy-950: #050f22;
+  --navy-900: #081831;
+  --navy-800: #0c2347;
+  --navy-700: #143263;
+  --red: #e11d3f;
+  --red-deep: #c00f31;
+  --ink: #eaf1fb;
+  --ink-dim: #9db1cf;
+
+  /* 희귀도 */
+  --r-normal: #c8d3e2;
+  --r-rare: #4f8ef7;
+  --r-epic: #b06bf7;
+  --r-legend: #f6c453;
+  --r-normal-glow: rgba(200, 211, 226, 0.45);
+  --r-rare-glow: rgba(79, 142, 247, 0.55);
+  --r-epic-glow: rgba(176, 107, 247, 0.6);
+  --r-legend-glow: rgba(246, 196, 83, 0.65);
+
+  /* 레이아웃 */
+  --card-w: min(64vw, 264px);
+  --radius: 18px;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+
+  --font: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Pretendard',
+    'Noto Sans KR', 'Segoe UI', Roboto, sans-serif;
+}

@@ -1,0 +1,323 @@
+/* ---------- 카드 공통 ---------- */
+.card {
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--navy-800);
+  isolation: isolate;
+}
+
+/* ---------- 앞면 ---------- */
+.card-front {
+  display: flex;
+  flex-direction: column;
+  border: 2.5px solid var(--frame, var(--r-normal));
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.14);
+}
+
+.rarity-normal {
+  --frame: var(--r-normal);
+  --frame-glow: var(--r-normal-glow);
+}
+.rarity-rare {
+  --frame: var(--r-rare);
+  --frame-glow: var(--r-rare-glow);
+}
+.rarity-epic {
+  --frame: var(--r-epic);
+  --frame-glow: var(--r-epic-glow);
+}
+.rarity-legendary {
+  --frame: var(--r-legend);
+  --frame-glow: var(--r-legend-glow);
+}
+
+.card-photo {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, #e8ecf2 0%, #cfd8e4 100%);
+}
+
+.card-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+}
+
+/* 플레이스홀더 (이미지 없을 때) */
+.ph {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  background: linear-gradient(160deg, var(--navy-700), var(--navy-800));
+}
+
+.ph-mark {
+  font-size: calc(var(--card-w) * 0.3);
+  font-weight: 900;
+  font-style: italic;
+  color: rgba(234, 241, 251, 0.9);
+  line-height: 1;
+}
+
+.ph-name {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--ink-dim);
+}
+
+.card-topbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9px 12px;
+  z-index: 2;
+  background: linear-gradient(180deg, rgba(5, 15, 34, 0.55), transparent);
+}
+
+.card-topbar .brand {
+  font-style: italic;
+  font-weight: 900;
+  font-size: 14px;
+  color: #fff;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+}
+
+.card-topbar .year {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: #fff;
+  background: var(--red);
+  padding: 3px 8px;
+  border-radius: 999px;
+}
+
+.card-info {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  padding: 34px 13px 10px;
+  background: linear-gradient(180deg, transparent, rgba(5, 15, 34, 0.88) 42%, rgba(5, 15, 34, 0.96));
+}
+
+.pos-badge {
+  display: inline-block;
+  font-size: 9.5px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background: var(--red);
+  padding: 3px 8px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.name-line {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.name-line .num {
+  font-style: italic;
+  font-weight: 900;
+  font-size: calc(var(--card-w) * 0.085);
+  color: var(--red);
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.name-line .name {
+  font-weight: 800;
+  font-size: calc(var(--card-w) * 0.085);
+  color: #fff;
+  letter-spacing: -0.01em;
+}
+
+.name-line .name.typing::after {
+  content: '|';
+  color: var(--frame);
+  animation: pulse 0.6s infinite;
+}
+
+.name-line .signed {
+  color: var(--r-legend);
+  font-size: calc(var(--card-w) * 0.06);
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7px;
+  padding-top: 6px;
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+  font-size: 8.5px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: rgba(234, 241, 251, 0.75);
+}
+
+.card-footer .brand-sm {
+  font-style: italic;
+  font-weight: 900;
+  color: var(--red);
+}
+
+/* ---------- 뒷면 ---------- */
+.card-back {
+  border: 2.5px solid rgba(255, 255, 255, 0.2);
+}
+
+.card-back .back-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.back-css {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background:
+    repeating-linear-gradient(115deg, transparent 0 22px, rgba(255, 255, 255, 0.03) 22px 40px),
+    radial-gradient(80% 60% at 50% 45%, rgba(225, 29, 63, 0.18), transparent 70%),
+    linear-gradient(180deg, var(--navy-800), var(--navy-900));
+}
+
+.back-ring {
+  width: 46%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 3px solid var(--red);
+  display: grid;
+  place-items: center;
+  box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.06);
+}
+
+.back-ring span {
+  font-size: calc(var(--card-w) * 0.2);
+  font-weight: 900;
+  font-style: italic;
+  color: var(--ink);
+}
+
+.back-title {
+  font-size: calc(var(--card-w) * 0.075);
+  font-weight: 900;
+  font-style: italic;
+  letter-spacing: 0.12em;
+}
+
+.back-sub {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: var(--ink-dim);
+}
+
+/* ---------- 반짝임(Shine sweep) ---------- */
+.card .shine {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+  background: linear-gradient(115deg, transparent 32%, rgba(255, 255, 255, 0.5) 48%, rgba(255, 255, 255, 0.14) 52%, transparent 66%);
+  transform: translateX(-130%);
+}
+
+.card.shine-run .shine {
+  animation: shine-sweep 1s cubic-bezier(0.3, 0.6, 0.3, 1) 0.05s forwards;
+}
+
+@keyframes shine-sweep {
+  to {
+    transform: translateX(130%);
+  }
+}
+
+/* ---------- 희귀도 발광 ---------- */
+.glow-normal {
+  box-shadow: 0 0 12px var(--r-normal-glow);
+}
+.glow-rare {
+  box-shadow: 0 0 20px var(--r-rare-glow);
+}
+.glow-epic {
+  box-shadow: 0 0 30px var(--r-epic-glow), 0 0 60px rgba(126, 166, 255, 0.25);
+}
+.glow-legendary {
+  box-shadow: 0 0 44px var(--r-legend-glow), 0 0 90px rgba(246, 196, 83, 0.3);
+}
+
+/* 결과 화면: 은은한 발광 루프 */
+.idle-glow {
+  animation: idle-glow 2.6s ease-in-out infinite;
+}
+
+@keyframes idle-glow {
+  0%,
+  100% {
+    filter: brightness(1);
+  }
+  50% {
+    filter: brightness(1.09);
+  }
+}
+
+/* 에픽: 오로라 오버레이 */
+.rarity-epic.shine-run::after,
+.rarity-epic.idle-glow::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+  border-radius: inherit;
+  background: linear-gradient(120deg, rgba(176, 107, 247, 0.22), transparent 40%, rgba(79, 142, 247, 0.2) 70%, transparent);
+  background-size: 200% 200%;
+  animation: aurora 3.2s ease-in-out infinite;
+  mix-blend-mode: screen;
+}
+
+/* 레전더리: 골드 홀로 오버레이 */
+.rarity-legendary.shine-run::after,
+.rarity-legendary.idle-glow::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+  border-radius: inherit;
+  background: linear-gradient(120deg, rgba(246, 196, 83, 0.28), transparent 35%, rgba(255, 122, 146, 0.18) 65%, rgba(246, 196, 83, 0.22));
+  background-size: 220% 220%;
+  animation: aurora 2.8s ease-in-out infinite;
+  mix-blend-mode: screen;
+}
+
+@keyframes aurora {
+  0%,
+  100% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+}
