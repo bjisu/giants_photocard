@@ -4,6 +4,8 @@
   overflow: hidden;
   background: var(--navy-800);
   isolation: isolate;
+  /* 텍스트가 카드 실제 폭에 비례하도록 (축소 카드에서도 같이 축소) */
+  container-type: inline-size;
 }
 
 /* ---------- 앞면 ---------- */
@@ -85,7 +87,7 @@
 }
 
 .ph-mark {
-  font-size: calc(var(--card-w) * 0.3);
+  font-size: 30cqw;
   font-weight: 900;
   font-style: italic;
   color: rgba(234, 241, 251, 0.9);
@@ -142,7 +144,7 @@
 .name-line .num {
   font-style: italic;
   font-weight: 900;
-  font-size: calc(var(--card-w) * 0.06);
+  font-size: 6cqw;
   color: #ff6b83;
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.45);
   letter-spacing: 0.02em;
@@ -150,7 +152,7 @@
 
 .name-line .name {
   font-weight: 800;
-  font-size: calc(var(--card-w) * 0.075);
+  font-size: 7.5cqw;
   color: #fff;
   letter-spacing: -0.01em;
 }
@@ -200,14 +202,14 @@
 }
 
 .back-ring span {
-  font-size: calc(var(--card-w) * 0.2);
+  font-size: 20cqw;
   font-weight: 900;
   font-style: italic;
   color: var(--ink);
 }
 
 .back-title {
-  font-size: calc(var(--card-w) * 0.075);
+  font-size: 7.5cqw;
   font-weight: 900;
   font-style: italic;
   letter-spacing: 0.12em;
