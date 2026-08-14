@@ -1,16 +1,8 @@
 import type { Card } from '../types';
-import { RARITY } from '../config';
 import { FRAME_IMAGES } from '../ui/cardView';
 
 const W = 750;
 const H = 1050;
-
-const FRAME: Record<string, string> = {
-  normal: '#c8d3e2',
-  rare: '#4f8ef7',
-  epic: '#b06bf7',
-  legendary: '#f6c453',
-};
 
 /* 화면 카드와 동일한 프레임 투명창 배치 비율 (card.css 참고) */
 const WINDOW = { left: 0.18, right: 0.18, top: 0.235, bottom: 0.15 };
@@ -46,7 +38,6 @@ export async function captureCard(card: Card): Promise<Blob> {
   canvas.width = W;
   canvas.height = H;
   const ctx = canvas.getContext('2d')!;
-  const frame = FRAME[card.rarity];
 
   // 배경
   const bg = ctx.createLinearGradient(0, 0, 0, H);
@@ -160,12 +151,6 @@ export async function captureCard(card: Card): Promise<Blob> {
   if (frameImg) {
     ctx.drawImage(frameImg, cardX, cardY, cardW, cardH);
   }
-
-  // 카드 아래: 희귀도 라벨
-  ctx.textAlign = 'center';
-  ctx.fillStyle = frame;
-  ctx.font = 'bold 34px sans-serif';
-  ctx.fillText(RARITY.label[card.rarity], W / 2, cardY + cardH + 66);
 
   // 푸터
   ctx.textAlign = 'left';
