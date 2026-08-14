@@ -118,25 +118,19 @@ export async function captureCard(card: Card): Promise<Blob> {
   ctx.font = 'italic 900 34px sans-serif';
   const numText = card.number >= 0 ? `NO.${card.number}` : '';
   const numW = numText ? ctx.measureText(numText).width : 0;
-  ctx.font = '800 34px sans-serif';
-  const nameW = ctx.measureText(card.player).width;
   const gap = numText ? 12 : 0;
-  const pillW = 20 + numW + gap + nameW + 20;
-  const pillH = 52;
-  ctx.fillStyle = 'rgba(5,15,34,.88)';
-  roundRect(ctx, textX, infoBottomY - pillH, pillW, pillH, pillH / 2);
-  ctx.fill();
-  ctx.strokeStyle = 'rgba(255,255,255,.16)';
-  ctx.lineWidth = 1.5;
-  roundRect(ctx, textX, infoBottomY - pillH, pillW, pillH, pillH / 2);
-  ctx.stroke();
   const textBase = infoBottomY - 16;
-  ctx.font = 'italic 900 34px sans-serif';
+  ctx.shadowColor = 'rgba(0,0,0,.55)';
+  ctx.shadowBlur = 6;
+  ctx.shadowOffsetY = 1;
   ctx.fillStyle = '#e11d3f';
-  if (numText) ctx.fillText(numText, textX + 20, textBase);
+  if (numText) ctx.fillText(numText, textX, textBase);
   ctx.fillStyle = '#eaf1fb';
   ctx.font = '800 34px sans-serif';
-  ctx.fillText(card.player, textX + 20 + numW + gap, textBase);
+  ctx.fillText(card.player, textX + numW + gap, textBase);
+  ctx.shadowColor = 'transparent';
+  ctx.shadowBlur = 0;
+  ctx.shadowOffsetY = 0;
   ctx.restore();
 
   // 희귀도 프레임 아트웍 합성

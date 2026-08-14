@@ -116,16 +116,15 @@
   margin-bottom: 6px;
 }
 
-/* 이름줄도 뱃지(알약) 스타일 */
 .name-line {
   display: inline-flex;
   align-items: baseline;
   gap: 8px;
   white-space: nowrap;
-  background: rgba(5, 15, 34, 0.88);
-  border: 1px solid rgba(255, 255, 255, 0.16);
-  border-radius: 999px;
-  padding: 5px 14px;
+}
+
+.name-line .name {
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.55);
 }
 
 .name-line .num {
