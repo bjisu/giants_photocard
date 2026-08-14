@@ -99,32 +99,44 @@ export async function captureCard(card: Card): Promise<Blob> {
     ctx.fillText(mark, win.x + win.w / 2, win.y + win.h / 2);
   }
 
-  // 창 하단 이름 영역 그라디언트
+  // 뱃지 스타일 텍스트 (보직 알약 + 번호·이름 알약)
   const infoBottomY = cardY + cardH * (1 - INFO_BOTTOM[card.rarity]);
-  const fade = ctx.createLinearGradient(0, infoBottomY - 150, 0, infoBottomY);
-  fade.addColorStop(0, 'rgba(5,15,34,0)');
-  fade.addColorStop(0.42, 'rgba(5,15,34,.88)');
-  fade.addColorStop(1, 'rgba(5,15,34,.96)');
-  ctx.fillStyle = fade;
-  ctx.fillRect(win.x, infoBottomY - 150, win.w, 150);
-
-  // 보직 뱃지 + 이름 (창 안쪽)
   ctx.textBaseline = 'alphabetic';
   ctx.textAlign = 'left';
   // 다이아 프레임 창(좌 22.4%)이 가장 좁으므로 전 등급 공통 24.5% 지점에서 시작
   const textX = cardX + cardW * 0.245;
+
   const roleText = card.role ?? card.position;
   ctx.font = '800 19px sans-serif';
   const roleW = ctx.measureText(roleText).width;
   ctx.fillStyle = '#e11d3f';
-  roundRect(ctx, textX, infoBottomY - 92, roleW + 24, 32, 6);
+  roundRect(ctx, textX, infoBottomY - 96, roleW + 28, 34, 17);
   ctx.fill();
   ctx.fillStyle = '#fff';
-  ctx.fillText(roleText, textX + 12, infoBottomY - 69);
+  ctx.fillText(roleText, textX + 14, infoBottomY - 72);
 
+  ctx.font = 'italic 900 34px sans-serif';
+  const numText = card.number >= 0 ? `NO.${card.number}` : '';
+  const numW = numText ? ctx.measureText(numText).width : 0;
+  ctx.font = '800 34px sans-serif';
+  const nameW = ctx.measureText(card.player).width;
+  const gap = numText ? 12 : 0;
+  const pillW = 20 + numW + gap + nameW + 20;
+  const pillH = 52;
+  ctx.fillStyle = 'rgba(5,15,34,.88)';
+  roundRect(ctx, textX, infoBottomY - pillH, pillW, pillH, pillH / 2);
+  ctx.fill();
+  ctx.strokeStyle = 'rgba(255,255,255,.16)';
+  ctx.lineWidth = 1.5;
+  roundRect(ctx, textX, infoBottomY - pillH, pillW, pillH, pillH / 2);
+  ctx.stroke();
+  const textBase = infoBottomY - 16;
+  ctx.font = 'italic 900 34px sans-serif';
+  ctx.fillStyle = '#e11d3f';
+  if (numText) ctx.fillText(numText, textX + 20, textBase);
   ctx.fillStyle = '#eaf1fb';
-  ctx.font = '800 44px sans-serif';
-  ctx.fillText(card.player, textX, infoBottomY - 18);
+  ctx.font = '800 34px sans-serif';
+  ctx.fillText(card.player, textX + 20 + numW + gap, textBase);
   ctx.restore();
 
   // 희귀도 프레임 아트웍 합성

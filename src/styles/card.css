@@ -87,12 +87,10 @@
 
 .card-info {
   position: absolute;
-  left: 18%;
-  right: 18%;
-  bottom: 17%;
+  left: 22.5%;
+  right: 20%;
+  bottom: 17.5%;
   z-index: 1;
-  padding: 30px 10px 8px;
-  background: linear-gradient(180deg, transparent, rgba(5, 15, 34, 0.88) 42%, rgba(5, 15, 34, 0.96));
 }
 
 /* 프레임별 투명창 하단 높이 보정 */
@@ -113,20 +111,35 @@
   letter-spacing: 0.04em;
   color: #fff;
   background: var(--red);
-  padding: 3px 8px;
-  border-radius: 4px;
-  margin-bottom: 5px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  margin-bottom: 6px;
 }
 
+/* 이름줄도 뱃지(알약) 스타일 */
 .name-line {
-  display: flex;
+  display: inline-flex;
   align-items: baseline;
-  gap: 6px;
+  gap: 8px;
+  white-space: nowrap;
+  background: rgba(5, 15, 34, 0.88);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 999px;
+  padding: 5px 14px;
+}
+
+.name-line .num {
+  font-style: italic;
+  font-weight: 900;
+  font-size: calc(var(--card-w) * 0.06);
+  color: var(--red);
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  letter-spacing: 0.02em;
 }
 
 .name-line .name {
   font-weight: 800;
-  font-size: calc(var(--card-w) * 0.085);
+  font-size: calc(var(--card-w) * 0.075);
   color: #fff;
   letter-spacing: -0.01em;
 }
