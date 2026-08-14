@@ -87,7 +87,7 @@
 
 .card-info {
   position: absolute;
-  left: 22.5%;
+  left: 24%;
   right: 20%;
   bottom: 17.5%;
   z-index: 1;
@@ -101,7 +101,8 @@
   bottom: 18.1%;
 }
 .rarity-legendary .card-info {
-  bottom: 19.5%;
+  bottom: 21%;
+  left: 27%;
 }
 
 .pos-badge {

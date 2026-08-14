@@ -103,8 +103,8 @@ export async function captureCard(card: Card): Promise<Blob> {
   const infoBottomY = cardY + cardH * (1 - INFO_BOTTOM[card.rarity]);
   ctx.textBaseline = 'alphabetic';
   ctx.textAlign = 'left';
-  // 다이아 프레임 창(좌 22.4%)이 가장 좁으므로 전 등급 공통 24.5% 지점에서 시작
-  const textX = cardX + cardW * 0.245;
+  // 다이아 프레임 안쪽 장식까지 피해 전 등급 공통 26% 지점에서 시작
+  const textX = cardX + cardW * 0.26;
 
   const roleText = card.role ?? card.position;
   ctx.font = '800 19px sans-serif';
