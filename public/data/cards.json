@@ -4,942 +4,970 @@
   "cards": [
     {
       "id": "g001",
-      "player": "손호영",
-      "number": 33,
-      "position": "OF",
-      "role": "OUTFIELDER",
-      "rarity": "epic",
-      "image": "assets/cards/50150.webp"
-    },
-    {
-      "id": "g002",
       "player": "황성빈",
       "number": 0,
       "position": "OF",
       "role": "OUTFIELDER",
       "rarity": "epic",
-      "image": "assets/cards/50500.webp"
+      "image": "assets/cards/0_황성빈.webp"
     },
     {
-      "id": "g003",
-      "player": "최준용",
-      "number": 56,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "epic",
-      "image": "assets/cards/50556.webp"
-    },
-    {
-      "id": "g004",
-      "player": "박로건",
-      "number": 117,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "normal",
-      "image": "assets/cards/50563.webp"
-    },
-    {
-      "id": "g005",
-      "player": "홍민기",
-      "number": 38,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "rare",
-      "image": "assets/cards/50596.webp"
-    },
-    {
-      "id": "g006",
-      "player": "이인한",
-      "number": 102,
-      "position": "OF",
-      "role": "OUTFIELDER",
-      "rarity": "normal",
-      "image": "assets/cards/50608.webp"
-    },
-    {
-      "id": "g007",
-      "player": "김진욱",
-      "number": 15,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "rare",
-      "image": "assets/cards/51516.webp"
-    },
-    {
-      "id": "g008",
-      "player": "손성빈",
-      "number": 28,
-      "position": "C",
-      "role": "CATCHER",
-      "rarity": "rare",
-      "image": "assets/cards/51528.webp"
-    },
-    {
-      "id": "g009",
-      "player": "정우준",
-      "number": 103,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "normal",
-      "image": "assets/cards/51546.webp"
-    },
-    {
-      "id": "g010",
-      "player": "나승엽",
-      "number": 51,
-      "position": "IF",
-      "role": "INFIELDER",
-      "rarity": "epic",
-      "image": "assets/cards/51551.webp"
-    },
-    {
-      "id": "g011",
-      "player": "김창훈",
-      "number": 66,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "normal",
-      "image": "assets/cards/51586.webp"
-    },
-    {
-      "id": "g012",
-      "player": "이병준",
-      "number": 105,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "normal",
-      "image": "assets/cards/51592.webp"
-    },
-    {
-      "id": "g013",
-      "player": "송재영",
-      "number": 59,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "normal",
-      "image": "assets/cards/51594.webp"
-    },
-    {
-      "id": "g014",
-      "player": "김주완",
-      "number": 106,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "normal",
-      "image": "assets/cards/52140.webp"
-    },
-    {
-      "id": "g015",
-      "player": "김동혁",
-      "number": 50,
-      "position": "OF",
-      "role": "OUTFIELDER",
-      "rarity": "normal",
-      "image": "assets/cards/52504.webp"
-    },
-    {
-      "id": "g016",
-      "player": "김세민",
-      "number": 5,
-      "position": "IF",
-      "role": "INFIELDER",
-      "rarity": "normal",
-      "image": "assets/cards/52514.webp"
-    },
-    {
-      "id": "g017",
-      "player": "조세진",
-      "number": 12,
-      "position": "OF",
-      "role": "OUTFIELDER",
-      "rarity": "rare",
-      "image": "assets/cards/52516.webp"
-    },
-    {
-      "id": "g018",
-      "player": "이민석",
-      "number": 37,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "rare",
-      "image": "assets/cards/52530.webp"
-    },
-    {
-      "id": "g019",
-      "player": "하혜성",
-      "number": 118,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "normal",
-      "image": "assets/cards/52560.webp"
-    },
-    {
-      "id": "g020",
-      "player": "엄장윤",
-      "number": 123,
-      "position": "OF",
-      "role": "OUTFIELDER",
-      "rarity": "normal",
-      "image": "assets/cards/52565.webp"
-    },
-    {
-      "id": "g021",
-      "player": "한태양",
-      "number": 6,
-      "position": "IF",
-      "role": "INFIELDER",
-      "rarity": "rare",
-      "image": "assets/cards/52568.webp"
-    },
-    {
-      "id": "g022",
-      "player": "윤동희",
-      "number": 91,
-      "position": "OF",
-      "role": "OUTFIELDER",
-      "rarity": "legendary",
-      "image": "assets/cards/52591.webp",
-      "signed": true
-    },
-    {
-      "id": "g023",
-      "player": "조경민",
-      "number": 128,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "normal",
-      "image": "assets/cards/53504.webp"
-    },
-    {
-      "id": "g024",
-      "player": "윤수녕",
-      "number": 126,
-      "position": "OF",
-      "role": "OUTFIELDER",
-      "rarity": "normal",
-      "image": "assets/cards/53505.webp"
-    },
-    {
-      "id": "g025",
-      "player": "김기준",
-      "number": 47,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "normal",
-      "image": "assets/cards/53540.webp"
-    },
-    {
-      "id": "g026",
-      "player": "석상호",
-      "number": 133,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "normal",
-      "image": "assets/cards/53560.webp"
-    },
-    {
-      "id": "g027",
-      "player": "이진하",
-      "number": 45,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "normal",
-      "image": "assets/cards/53562.webp"
-    },
-    {
-      "id": "g028",
-      "player": "정대선",
-      "number": 4,
-      "position": "IF",
-      "role": "INFIELDER",
-      "rarity": "normal",
-      "image": "assets/cards/53568.webp"
-    },
-    {
-      "id": "g029",
-      "player": "이태연",
-      "number": 121,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "normal",
-      "image": "assets/cards/53594.webp"
-    },
-    {
-      "id": "g030",
-      "player": "장세진",
-      "number": 131,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "normal",
-      "image": "assets/cards/53596.webp"
-    },
-    {
-      "id": "g031",
-      "player": "박하늘",
-      "number": 129,
-      "position": "OF",
-      "role": "OUTFIELDER",
-      "rarity": "normal",
-      "image": "assets/cards/53597.webp"
-    },
-    {
-      "id": "g032",
-      "player": "배인혁",
-      "number": 127,
-      "position": "IF",
-      "role": "INFIELDER",
-      "rarity": "normal",
-      "image": "assets/cards/53598.webp"
-    },
-    {
-      "id": "g033",
-      "player": "박성준",
-      "number": 145,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "normal",
-      "image": "assets/cards/54502.webp"
-    },
-    {
-      "id": "g034",
-      "player": "박준우",
-      "number": 58,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "normal",
-      "image": "assets/cards/54503.webp"
-    },
-    {
-      "id": "g035",
-      "player": "전하원",
-      "number": 144,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "normal",
-      "image": "assets/cards/54505.webp"
-    },
-    {
-      "id": "g036",
-      "player": "강승구",
-      "number": 110,
-      "position": "C",
-      "role": "CATCHER",
-      "rarity": "normal",
-      "image": "assets/cards/54506.webp"
-    },
-    {
-      "id": "g037",
-      "player": "안우진",
-      "number": 148,
-      "position": "IF",
-      "role": "INFIELDER",
-      "rarity": "normal",
-      "image": "assets/cards/54509.webp"
-    },
-    {
-      "id": "g038",
-      "player": "김대현",
-      "number": 100,
-      "position": "OF",
-      "role": "OUTFIELDER",
-      "rarity": "normal",
-      "image": "assets/cards/54511.webp"
-    },
-    {
-      "id": "g039",
-      "player": "소한빈",
-      "number": 147,
-      "position": "OF",
-      "role": "OUTFIELDER",
-      "rarity": "normal",
-      "image": "assets/cards/54512.webp"
-    },
-    {
-      "id": "g040",
-      "player": "유제모",
-      "number": 142,
-      "position": "OF",
-      "role": "OUTFIELDER",
-      "rarity": "normal",
-      "image": "assets/cards/54513.webp"
-    },
-    {
-      "id": "g041",
-      "player": "빅터 레이예스",
-      "number": 29,
-      "position": "OF",
-      "role": "OUTFIELDER",
-      "rarity": "epic",
-      "image": "assets/cards/54529.webp"
-    },
-    {
-      "id": "g042",
-      "player": "정현수",
-      "number": 57,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "rare",
-      "image": "assets/cards/54537.webp"
-    },
-    {
-      "id": "g043",
-      "player": "이선우",
-      "number": 146,
-      "position": "OF",
-      "role": "OUTFIELDER",
-      "rarity": "normal",
-      "image": "assets/cards/54595.webp"
-    },
-    {
-      "id": "g044",
-      "player": "이호준",
-      "number": 30,
-      "position": "IF",
-      "role": "INFIELDER",
-      "rarity": "rare",
-      "image": "assets/cards/54598.webp"
-    },
-    {
-      "id": "g045",
-      "player": "김동현",
-      "number": 64,
-      "position": "OF",
-      "role": "OUTFIELDER",
-      "rarity": "normal",
-      "image": "assets/cards/55502.webp"
-    },
-    {
-      "id": "g046",
-      "player": "이영재",
-      "number": 40,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "normal",
-      "image": "assets/cards/55503.webp"
-    },
-    {
-      "id": "g047",
-      "player": "조영우",
-      "number": 104,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "normal",
-      "image": "assets/cards/55504.webp"
-    },
-    {
-      "id": "g048",
-      "player": "김태균",
-      "number": 107,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "normal",
-      "image": "assets/cards/55507.webp"
-    },
-    {
-      "id": "g049",
-      "player": "박지훈",
-      "number": 108,
-      "position": "IF",
-      "role": "INFIELDER",
-      "rarity": "normal",
-      "image": "assets/cards/55508.webp"
-    },
-    {
-      "id": "g050",
-      "player": "박건우",
-      "number": 69,
-      "position": "C",
-      "role": "CATCHER",
-      "rarity": "normal",
-      "image": "assets/cards/55509.webp"
-    },
-    {
-      "id": "g051",
-      "player": "이태경",
-      "number": 11,
-      "position": "IF",
-      "role": "INFIELDER",
-      "rarity": "normal",
-      "image": "assets/cards/55511.webp"
-    },
-    {
-      "id": "g052",
-      "player": "박찬형",
-      "number": 60,
-      "position": "IF",
-      "role": "INFIELDER",
-      "rarity": "rare",
-      "image": "assets/cards/55530.webp"
-    },
-    {
-      "id": "g053",
-      "player": "조민영",
-      "number": 68,
-      "position": "OF",
-      "role": "OUTFIELDER",
-      "rarity": "normal",
-      "image": "assets/cards/55534.webp"
-    },
-    {
-      "id": "g054",
-      "player": "박재엽",
-      "number": 26,
-      "position": "C",
-      "role": "CATCHER",
-      "rarity": "normal",
-      "image": "assets/cards/55563.webp"
-    },
-    {
-      "id": "g055",
-      "player": "김태현",
-      "number": 66,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "normal",
-      "image": "assets/cards/55566.webp"
-    },
-    {
-      "id": "g056",
-      "player": "박세현",
-      "number": -1,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "normal",
-      "image": "assets/cards/55568.webp"
-    },
-    {
-      "id": "g057",
-      "player": "이이무라 쇼타",
-      "number": 39,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "rare",
-      "image": "assets/cards/56503.webp"
-    },
-    {
-      "id": "g058",
-      "player": "김현도",
-      "number": 109,
-      "position": "C",
-      "role": "CATCHER",
-      "rarity": "normal",
-      "image": "assets/cards/56509.webp"
-    },
-    {
-      "id": "g059",
-      "player": "김호범",
-      "number": 112,
-      "position": "IF",
-      "role": "INFIELDER",
-      "rarity": "normal",
-      "image": "assets/cards/56512.webp"
-    },
-    {
-      "id": "g060",
-      "player": "이정민",
-      "number": 113,
-      "position": "IF",
-      "role": "INFIELDER",
-      "rarity": "normal",
-      "image": "assets/cards/56513.webp"
-    },
-    {
-      "id": "g061",
-      "player": "이지훈",
-      "number": 114,
-      "position": "IF",
-      "role": "INFIELDER",
-      "rarity": "normal",
-      "image": "assets/cards/56514.webp"
-    },
-    {
-      "id": "g062",
-      "player": "홍서연",
-      "number": 119,
-      "position": "IF",
-      "role": "INFIELDER",
-      "rarity": "normal",
-      "image": "assets/cards/56519.webp"
-    },
-    {
-      "id": "g063",
-      "player": "이건희",
-      "number": -1,
-      "position": "C",
-      "role": "CATCHER",
-      "rarity": "normal",
-      "image": "assets/cards/56520.webp"
-    },
-    {
-      "id": "g064",
-      "player": "하준서",
-      "number": 122,
-      "position": "C",
-      "role": "CATCHER",
-      "rarity": "normal",
-      "image": "assets/cards/56522.webp"
-    },
-    {
-      "id": "g065",
-      "player": "제레미 비슬리",
-      "number": 23,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "epic",
-      "image": "assets/cards/56523.webp"
-    },
-    {
-      "id": "g066",
-      "player": "엘빈 로드리게스",
-      "number": 31,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "epic",
-      "image": "assets/cards/56531.webp"
-    },
-    {
-      "id": "g067",
-      "player": "박정민",
-      "number": 36,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "normal",
-      "image": "assets/cards/56536.webp"
-    },
-    {
-      "id": "g068",
-      "player": "김화중",
-      "number": 137,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "normal",
-      "image": "assets/cards/56537.webp"
-    },
-    {
-      "id": "g069",
-      "player": "남해담",
-      "number": 139,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "normal",
-      "image": "assets/cards/56539.webp"
-    },
-    {
-      "id": "g070",
-      "player": "김한결",
-      "number": 62,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "normal",
-      "image": "assets/cards/56540.webp"
-    },
-    {
-      "id": "g071",
-      "player": "김현수",
-      "number": 141,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "normal",
-      "image": "assets/cards/56541.webp"
-    },
-    {
-      "id": "g072",
-      "player": "이준서",
-      "number": 54,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "normal",
-      "image": "assets/cards/56554.webp"
-    },
-    {
-      "id": "g073",
-      "player": "이서준",
-      "number": 63,
-      "position": "IF",
-      "role": "INFIELDER",
-      "rarity": "normal",
-      "image": "assets/cards/56563.webp"
-    },
-    {
-      "id": "g074",
-      "player": "신동건",
-      "number": 67,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "normal",
-      "image": "assets/cards/56567.webp"
-    },
-    {
-      "id": "g075",
-      "player": "김한홀",
-      "number": 95,
-      "position": "OF",
-      "role": "OUTFIELDER",
-      "rarity": "normal",
-      "image": "assets/cards/56595.webp"
-    },
-    {
-      "id": "g076",
-      "player": "유강남",
-      "number": 27,
-      "position": "C",
-      "role": "CATCHER",
-      "rarity": "epic",
-      "image": "assets/cards/61102.webp"
-    },
-    {
-      "id": "g077",
+      "id": "g002",
       "player": "한현희",
       "number": 1,
       "position": "P",
       "role": "PITCHER",
       "rarity": "rare",
-      "image": "assets/cards/62363.webp"
+      "image": "assets/cards/1_한현희.webp"
     },
     {
-      "id": "g078",
-      "player": "김원중",
-      "number": 34,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "epic",
-      "image": "assets/cards/62528.webp"
-    },
-    {
-      "id": "g079",
-      "player": "정문혁",
-      "number": 32,
-      "position": "C",
-      "role": "CATCHER",
-      "rarity": "normal",
-      "image": "assets/cards/56543.webp"
-    },
-    {
-      "id": "g080",
-      "player": "박승욱",
-      "number": 53,
-      "position": "IF",
-      "role": "INFIELDER",
-      "rarity": "rare",
-      "image": "assets/cards/62802.webp"
-    },
-    {
-      "id": "g081",
-      "player": "노진혁",
-      "number": 52,
-      "position": "IF",
-      "role": "INFIELDER",
-      "rarity": "rare",
-      "image": "assets/cards/62931.webp"
-    },
-    {
-      "id": "g082",
-      "player": "구승민",
-      "number": 22,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "epic",
-      "image": "assets/cards/63543.webp"
-    },
-    {
-      "id": "g083",
-      "player": "박세웅",
-      "number": 21,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "legendary",
-      "image": "assets/cards/64021.webp",
-      "signed": true
-    },
-    {
-      "id": "g084",
-      "player": "김강현",
-      "number": 19,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "rare",
-      "image": "assets/cards/65522.webp"
-    },
-    {
-      "id": "g085",
-      "player": "박세진",
-      "number": 41,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "normal",
-      "image": "assets/cards/66047.webp"
-    },
-    {
-      "id": "g086",
-      "player": "최충연",
-      "number": 61,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "normal",
-      "image": "assets/cards/66451.webp"
-    },
-    {
-      "id": "g087",
-      "player": "나균안",
-      "number": 43,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "epic",
-      "image": "assets/cards/67539.webp"
-    },
-    {
-      "id": "g088",
-      "player": "윤성빈",
-      "number": 55,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "rare",
-      "image": "assets/cards/67588.webp"
-    },
-    {
-      "id": "g089",
-      "player": "최이준",
-      "number": 49,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "rare",
-      "image": "assets/cards/68036.webp"
-    },
-    {
-      "id": "g090",
-      "player": "김영준",
-      "number": 35,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "normal",
-      "image": "assets/cards/68130.webp"
-    },
-    {
-      "id": "g091",
-      "player": "전민재",
-      "number": 13,
-      "position": "IF",
-      "role": "INFIELDER",
-      "rarity": "rare",
-      "image": "assets/cards/68205.webp"
-    },
-    {
-      "id": "g092",
-      "player": "정철원",
-      "number": 65,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "rare",
-      "image": "assets/cards/68242.webp"
-    },
-    {
-      "id": "g093",
-      "player": "현도훈",
-      "number": 17,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "normal",
-      "image": "assets/cards/68260.webp"
-    },
-    {
-      "id": "g094",
-      "player": "장두성",
-      "number": 7,
-      "position": "OF",
-      "role": "OUTFIELDER",
-      "rarity": "rare",
-      "image": "assets/cards/68507.webp"
-    },
-    {
-      "id": "g095",
-      "player": "정보근",
-      "number": 42,
-      "position": "C",
-      "role": "CATCHER",
-      "rarity": "rare",
-      "image": "assets/cards/68518.webp"
-    },
-    {
-      "id": "g096",
-      "player": "한동희",
-      "number": 25,
-      "position": "IF",
-      "role": "INFIELDER",
-      "rarity": "epic",
-      "image": "assets/cards/68525.webp"
-    },
-    {
-      "id": "g097",
-      "player": "이승헌",
-      "number": 46,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "rare",
-      "image": "assets/cards/68529.webp"
-    },
-    {
-      "id": "g098",
-      "player": "정성종",
-      "number": 18,
-      "position": "P",
-      "role": "PITCHER",
-      "rarity": "rare",
-      "image": "assets/cards/68556.webp"
-    },
-    {
-      "id": "g099",
-      "player": "신윤후",
-      "number": 3,
-      "position": "OF",
-      "role": "OUTFIELDER",
-      "rarity": "rare",
-      "image": "assets/cards/69508.webp"
-    },
-    {
-      "id": "g100",
+      "id": "g003",
       "player": "고승민",
       "number": 2,
       "position": "IF",
       "role": "INFIELDER",
       "rarity": "epic",
-      "image": "assets/cards/69517.webp"
+      "image": "assets/cards/2_고승민.webp"
     },
     {
-      "id": "g101",
-      "player": "박진",
-      "number": 44,
-      "position": "P",
-      "role": "PITCHER",
+      "id": "g004",
+      "player": "신윤후",
+      "number": 3,
+      "position": "OF",
+      "role": "OUTFIELDER",
       "rarity": "rare",
-      "image": "assets/cards/69594.webp"
+      "image": "assets/cards/3_신윤후.webp"
     },
     {
-      "id": "g102",
-      "player": "김태혁",
-      "number": 24,
-      "position": "P",
-      "role": "PITCHER",
+      "id": "g005",
+      "player": "정대선",
+      "number": 4,
+      "position": "IF",
+      "role": "INFIELDER",
       "rarity": "normal",
-      "image": "assets/cards/76430.webp"
+      "image": "assets/cards/4_정대선.webp"
     },
     {
-      "id": "g103",
-      "player": "김민성",
-      "number": 16,
+      "id": "g006",
+      "player": "김세민",
+      "number": 5,
+      "position": "IF",
+      "role": "INFIELDER",
+      "rarity": "normal",
+      "image": "assets/cards/5_김세민.webp"
+    },
+    {
+      "id": "g007",
+      "player": "한태양",
+      "number": 6,
       "position": "IF",
       "role": "INFIELDER",
       "rarity": "rare",
-      "image": "assets/cards/77564.webp"
+      "image": "assets/cards/6_한태양.webp"
     },
     {
-      "id": "g104",
+      "id": "g008",
+      "player": "장두성",
+      "number": 7,
+      "position": "OF",
+      "role": "OUTFIELDER",
+      "rarity": "rare",
+      "image": "assets/cards/7_장두성.webp"
+    },
+    {
+      "id": "g009",
       "player": "전준우",
       "number": 8,
       "position": "OF",
       "role": "OUTFIELDER",
       "rarity": "legendary",
-      "image": "assets/cards/78513.webp",
+      "image": "assets/cards/8_전준우.webp",
       "signed": true
+    },
+    {
+      "id": "g010",
+      "player": "조세진",
+      "number": 12,
+      "position": "OF",
+      "role": "OUTFIELDER",
+      "rarity": "rare",
+      "image": "assets/cards/12_조세진.webp"
+    },
+    {
+      "id": "g011",
+      "player": "전민재",
+      "number": 13,
+      "position": "IF",
+      "role": "INFIELDER",
+      "rarity": "rare",
+      "image": "assets/cards/13_전민재.webp"
+    },
+    {
+      "id": "g012",
+      "player": "김진욱",
+      "number": 15,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "rare",
+      "image": "assets/cards/15_김진욱.webp"
+    },
+    {
+      "id": "g013",
+      "player": "김민성",
+      "number": 16,
+      "position": "IF",
+      "role": "INFIELDER",
+      "rarity": "rare",
+      "image": "assets/cards/16_김민성.webp"
+    },
+    {
+      "id": "g014",
+      "player": "현도훈",
+      "number": 17,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "normal",
+      "image": "assets/cards/17_현도훈.webp"
+    },
+    {
+      "id": "g015",
+      "player": "정성종",
+      "number": 18,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "rare",
+      "image": "assets/cards/18_정성종.webp"
+    },
+    {
+      "id": "g016",
+      "player": "김강현",
+      "number": 19,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "rare",
+      "image": "assets/cards/19_김강현.webp"
+    },
+    {
+      "id": "g017",
+      "player": "박세웅",
+      "number": 21,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "legendary",
+      "image": "assets/cards/21_박세웅.webp",
+      "signed": true
+    },
+    {
+      "id": "g018",
+      "player": "구승민",
+      "number": 22,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "epic",
+      "image": "assets/cards/22_구승민.webp"
+    },
+    {
+      "id": "g019",
+      "player": "제레미 비슬리",
+      "number": 23,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "epic",
+      "image": "assets/cards/23_제레미_비슬리.webp"
+    },
+    {
+      "id": "g020",
+      "player": "김태혁",
+      "number": 24,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "normal",
+      "image": "assets/cards/24_김태혁.webp"
+    },
+    {
+      "id": "g021",
+      "player": "한동희",
+      "number": 25,
+      "position": "IF",
+      "role": "INFIELDER",
+      "rarity": "epic",
+      "image": "assets/cards/25_한동희.webp"
+    },
+    {
+      "id": "g022",
+      "player": "박재엽",
+      "number": 26,
+      "position": "C",
+      "role": "CATCHER",
+      "rarity": "normal",
+      "image": "assets/cards/26_박재엽.webp"
+    },
+    {
+      "id": "g023",
+      "player": "유강남",
+      "number": 27,
+      "position": "C",
+      "role": "CATCHER",
+      "rarity": "epic",
+      "image": "assets/cards/27_유강남.webp"
+    },
+    {
+      "id": "g024",
+      "player": "손성빈",
+      "number": 28,
+      "position": "C",
+      "role": "CATCHER",
+      "rarity": "rare",
+      "image": "assets/cards/28_손성빈.webp"
+    },
+    {
+      "id": "g025",
+      "player": "빅터 레이예스",
+      "number": 29,
+      "position": "OF",
+      "role": "OUTFIELDER",
+      "rarity": "epic",
+      "image": "assets/cards/29_빅터_레이예스.webp"
+    },
+    {
+      "id": "g026",
+      "player": "이호준",
+      "number": 30,
+      "position": "IF",
+      "role": "INFIELDER",
+      "rarity": "rare",
+      "image": "assets/cards/30_이호준.webp"
+    },
+    {
+      "id": "g027",
+      "player": "엘빈 로드리게스",
+      "number": 31,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "epic",
+      "image": "assets/cards/31_엘빈_로드리게스.webp"
+    },
+    {
+      "id": "g028",
+      "player": "정문혁",
+      "number": 32,
+      "position": "C",
+      "role": "CATCHER",
+      "rarity": "normal",
+      "image": "assets/cards/32_정문혁.webp"
+    },
+    {
+      "id": "g029",
+      "player": "손호영",
+      "number": 33,
+      "position": "OF",
+      "role": "OUTFIELDER",
+      "rarity": "epic",
+      "image": "assets/cards/33_손호영.webp"
+    },
+    {
+      "id": "g030",
+      "player": "김원중",
+      "number": 34,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "epic",
+      "image": "assets/cards/34_김원중.webp"
+    },
+    {
+      "id": "g031",
+      "player": "김영준",
+      "number": 35,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "normal",
+      "image": "assets/cards/35_김영준.webp"
+    },
+    {
+      "id": "g032",
+      "player": "박정민",
+      "number": 36,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "normal",
+      "image": "assets/cards/36_박정민.webp"
+    },
+    {
+      "id": "g033",
+      "player": "이민석",
+      "number": 37,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "rare",
+      "image": "assets/cards/37_이민석.webp"
+    },
+    {
+      "id": "g034",
+      "player": "홍민기",
+      "number": 38,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "rare",
+      "image": "assets/cards/38_홍민기.webp"
+    },
+    {
+      "id": "g035",
+      "player": "이이무라 쇼타",
+      "number": 39,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "rare",
+      "image": "assets/cards/39_이이무라_쇼타.webp"
+    },
+    {
+      "id": "g036",
+      "player": "이영재",
+      "number": 40,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "normal",
+      "image": "assets/cards/40_이영재.webp"
+    },
+    {
+      "id": "g037",
+      "player": "박세진",
+      "number": 41,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "normal",
+      "image": "assets/cards/41_박세진.webp"
+    },
+    {
+      "id": "g038",
+      "player": "정보근",
+      "number": 42,
+      "position": "C",
+      "role": "CATCHER",
+      "rarity": "rare",
+      "image": "assets/cards/42_정보근.webp"
+    },
+    {
+      "id": "g039",
+      "player": "나균안",
+      "number": 43,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "epic",
+      "image": "assets/cards/43_나균안.webp"
+    },
+    {
+      "id": "g040",
+      "player": "박진",
+      "number": 44,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "rare",
+      "image": "assets/cards/44_박진.webp"
+    },
+    {
+      "id": "g041",
+      "player": "이진하",
+      "number": 45,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "normal",
+      "image": "assets/cards/45_이진하.webp"
+    },
+    {
+      "id": "g042",
+      "player": "이승헌",
+      "number": 46,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "rare",
+      "image": "assets/cards/46_이승헌.webp"
+    },
+    {
+      "id": "g043",
+      "player": "김기준",
+      "number": 47,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "normal",
+      "image": "assets/cards/47_김기준.webp"
+    },
+    {
+      "id": "g044",
+      "player": "최이준",
+      "number": 49,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "rare",
+      "image": "assets/cards/49_최이준.webp"
+    },
+    {
+      "id": "g045",
+      "player": "김동혁",
+      "number": 50,
+      "position": "OF",
+      "role": "OUTFIELDER",
+      "rarity": "normal",
+      "image": "assets/cards/50_김동혁.webp"
+    },
+    {
+      "id": "g046",
+      "player": "나승엽",
+      "number": 51,
+      "position": "IF",
+      "role": "INFIELDER",
+      "rarity": "epic",
+      "image": "assets/cards/51_나승엽.webp"
+    },
+    {
+      "id": "g047",
+      "player": "노진혁",
+      "number": 52,
+      "position": "IF",
+      "role": "INFIELDER",
+      "rarity": "rare",
+      "image": "assets/cards/52_노진혁.webp"
+    },
+    {
+      "id": "g048",
+      "player": "박승욱",
+      "number": 53,
+      "position": "IF",
+      "role": "INFIELDER",
+      "rarity": "rare",
+      "image": "assets/cards/53_박승욱.webp"
+    },
+    {
+      "id": "g049",
+      "player": "이준서",
+      "number": 54,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "normal",
+      "image": "assets/cards/54_이준서.webp"
+    },
+    {
+      "id": "g050",
+      "player": "윤성빈",
+      "number": 55,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "rare",
+      "image": "assets/cards/55_윤성빈.webp"
+    },
+    {
+      "id": "g051",
+      "player": "최준용",
+      "number": 56,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "epic",
+      "image": "assets/cards/56_최준용.webp"
+    },
+    {
+      "id": "g052",
+      "player": "정현수",
+      "number": 57,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "rare",
+      "image": "assets/cards/57_정현수.webp"
+    },
+    {
+      "id": "g053",
+      "player": "박준우",
+      "number": 58,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "normal",
+      "image": "assets/cards/58_박준우.webp"
+    },
+    {
+      "id": "g054",
+      "player": "송재영",
+      "number": 59,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "normal",
+      "image": "assets/cards/59_송재영.webp"
+    },
+    {
+      "id": "g055",
+      "player": "박찬형",
+      "number": 60,
+      "position": "IF",
+      "role": "INFIELDER",
+      "rarity": "rare",
+      "image": "assets/cards/60_박찬형.webp"
+    },
+    {
+      "id": "g056",
+      "player": "최충연",
+      "number": 61,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "normal",
+      "image": "assets/cards/61_최충연.webp"
+    },
+    {
+      "id": "g057",
+      "player": "김한결",
+      "number": 62,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "normal",
+      "image": "assets/cards/62_김한결.webp"
+    },
+    {
+      "id": "g058",
+      "player": "이서준",
+      "number": 63,
+      "position": "IF",
+      "role": "INFIELDER",
+      "rarity": "normal",
+      "image": "assets/cards/63_이서준.webp"
+    },
+    {
+      "id": "g059",
+      "player": "김동현",
+      "number": 64,
+      "position": "OF",
+      "role": "OUTFIELDER",
+      "rarity": "normal",
+      "image": "assets/cards/64_김동현.webp"
+    },
+    {
+      "id": "g060",
+      "player": "정철원",
+      "number": 65,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "rare",
+      "image": "assets/cards/65_정철원.webp"
+    },
+    {
+      "id": "g061",
+      "player": "김창훈",
+      "number": 66,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "normal",
+      "image": "assets/cards/66_김창훈.webp"
+    },
+    {
+      "id": "g062",
+      "player": "신동건",
+      "number": 67,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "normal",
+      "image": "assets/cards/67_신동건.webp"
+    },
+    {
+      "id": "g063",
+      "player": "박건우",
+      "number": 69,
+      "position": "C",
+      "role": "CATCHER",
+      "rarity": "normal",
+      "image": "assets/cards/69_박건우.webp"
+    },
+    {
+      "id": "g064",
+      "player": "이태경",
+      "number": 69,
+      "position": "IF",
+      "role": "INFIELDER",
+      "rarity": "normal",
+      "image": "assets/cards/69_이태경.webp"
+    },
+    {
+      "id": "g065",
+      "player": "김태형",
+      "number": 88,
+      "position": "감독",
+      "role": "MANAGER",
+      "rarity": "legendary",
+      "image": "assets/cards/88_김태형.webp",
+      "signed": true
+    },
+    {
+      "id": "g066",
+      "player": "윤동희",
+      "number": 91,
+      "position": "OF",
+      "role": "OUTFIELDER",
+      "rarity": "legendary",
+      "image": "assets/cards/91_윤동희.webp",
+      "signed": true
+    },
+    {
+      "id": "g067",
+      "player": "김한홀",
+      "number": 95,
+      "position": "OF",
+      "role": "OUTFIELDER",
+      "rarity": "normal",
+      "image": "assets/cards/95_김한홀.webp"
+    },
+    {
+      "id": "g068",
+      "player": "김대현",
+      "number": 100,
+      "position": "OF",
+      "role": "OUTFIELDER",
+      "rarity": "normal",
+      "image": "assets/cards/100_김대현.webp"
+    },
+    {
+      "id": "g069",
+      "player": "이인한",
+      "number": 102,
+      "position": "OF",
+      "role": "OUTFIELDER",
+      "rarity": "normal",
+      "image": "assets/cards/102_이인한.webp"
+    },
+    {
+      "id": "g070",
+      "player": "정우준",
+      "number": 103,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "normal",
+      "image": "assets/cards/103_정우준.webp"
+    },
+    {
+      "id": "g071",
+      "player": "조영우",
+      "number": 104,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "normal",
+      "image": "assets/cards/104_조영우.webp"
+    },
+    {
+      "id": "g072",
+      "player": "이병준",
+      "number": 105,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "normal",
+      "image": "assets/cards/105_이병준.webp"
+    },
+    {
+      "id": "g073",
+      "player": "김주완",
+      "number": 106,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "normal",
+      "image": "assets/cards/106_김주완.webp"
+    },
+    {
+      "id": "g074",
+      "player": "김태균",
+      "number": 107,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "normal",
+      "image": "assets/cards/107_김태균.webp"
+    },
+    {
+      "id": "g075",
+      "player": "박지훈",
+      "number": 108,
+      "position": "IF",
+      "role": "INFIELDER",
+      "rarity": "normal",
+      "image": "assets/cards/108_박지훈.webp"
+    },
+    {
+      "id": "g076",
+      "player": "김현도",
+      "number": 109,
+      "position": "C",
+      "role": "CATCHER",
+      "rarity": "normal",
+      "image": "assets/cards/109_김현도.webp"
+    },
+    {
+      "id": "g077",
+      "player": "강승구",
+      "number": 110,
+      "position": "C",
+      "role": "CATCHER",
+      "rarity": "normal",
+      "image": "assets/cards/110_강승구.webp"
+    },
+    {
+      "id": "g078",
+      "player": "김호범",
+      "number": 112,
+      "position": "IF",
+      "role": "INFIELDER",
+      "rarity": "normal",
+      "image": "assets/cards/112_김호범.webp"
+    },
+    {
+      "id": "g079",
+      "player": "이정민",
+      "number": 113,
+      "position": "IF",
+      "role": "INFIELDER",
+      "rarity": "normal",
+      "image": "assets/cards/113_이정민.webp"
+    },
+    {
+      "id": "g080",
+      "player": "이지훈",
+      "number": 114,
+      "position": "IF",
+      "role": "INFIELDER",
+      "rarity": "normal",
+      "image": "assets/cards/114_이지훈.webp"
+    },
+    {
+      "id": "g081",
+      "player": "박로건",
+      "number": 117,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "normal",
+      "image": "assets/cards/117_박로건.webp"
+    },
+    {
+      "id": "g082",
+      "player": "하혜성",
+      "number": 118,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "normal",
+      "image": "assets/cards/118_하혜성.webp"
+    },
+    {
+      "id": "g083",
+      "player": "홍서연",
+      "number": 119,
+      "position": "IF",
+      "role": "INFIELDER",
+      "rarity": "normal",
+      "image": "assets/cards/119_홍서연.webp"
+    },
+    {
+      "id": "g084",
+      "player": "이건희",
+      "number": 120,
+      "position": "C",
+      "role": "CATCHER",
+      "rarity": "normal",
+      "image": "assets/cards/120_이건희.webp"
+    },
+    {
+      "id": "g085",
+      "player": "이태연",
+      "number": 121,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "normal",
+      "image": "assets/cards/121_이태연.webp"
+    },
+    {
+      "id": "g086",
+      "player": "하준서",
+      "number": 122,
+      "position": "C",
+      "role": "CATCHER",
+      "rarity": "normal",
+      "image": "assets/cards/122_하준서.webp"
+    },
+    {
+      "id": "g087",
+      "player": "엄장윤",
+      "number": 123,
+      "position": "OF",
+      "role": "OUTFIELDER",
+      "rarity": "normal",
+      "image": "assets/cards/123_엄장윤.webp"
+    },
+    {
+      "id": "g088",
+      "player": "서하은",
+      "number": 124,
+      "position": "C",
+      "role": "CATCHER",
+      "rarity": "normal",
+      "image": "assets/cards/124_서하은.webp"
+    },
+    {
+      "id": "g089",
+      "player": "윤수녕",
+      "number": 126,
+      "position": "OF",
+      "role": "OUTFIELDER",
+      "rarity": "normal",
+      "image": "assets/cards/126_윤수녕.webp"
+    },
+    {
+      "id": "g090",
+      "player": "배인혁",
+      "number": 127,
+      "position": "IF",
+      "role": "INFIELDER",
+      "rarity": "normal",
+      "image": "assets/cards/127_배인혁.webp"
+    },
+    {
+      "id": "g091",
+      "player": "조경민",
+      "number": 128,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "normal",
+      "image": "assets/cards/128_조경민.webp"
+    },
+    {
+      "id": "g092",
+      "player": "박하늘",
+      "number": 129,
+      "position": "OF",
+      "role": "OUTFIELDER",
+      "rarity": "normal",
+      "image": "assets/cards/129_박하늘.webp"
+    },
+    {
+      "id": "g093",
+      "player": "김태현",
+      "number": 130,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "normal",
+      "image": "assets/cards/130_김태현.webp"
+    },
+    {
+      "id": "g094",
+      "player": "장세진",
+      "number": 131,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "normal",
+      "image": "assets/cards/131_장세진.webp"
+    },
+    {
+      "id": "g095",
+      "player": "석상호",
+      "number": 133,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "normal",
+      "image": "assets/cards/133_석상호.webp"
+    },
+    {
+      "id": "g096",
+      "player": "조민영",
+      "number": 134,
+      "position": "OF",
+      "role": "OUTFIELDER",
+      "rarity": "normal",
+      "image": "assets/cards/134_조민영.webp"
+    },
+    {
+      "id": "g097",
+      "player": "박세현",
+      "number": 135,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "normal",
+      "image": "assets/cards/135_박세현.webp"
+    },
+    {
+      "id": "g098",
+      "player": "김화중",
+      "number": 137,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "normal",
+      "image": "assets/cards/137_김화중.webp"
+    },
+    {
+      "id": "g099",
+      "player": "남해담",
+      "number": 139,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "normal",
+      "image": "assets/cards/139_남해담.webp"
+    },
+    {
+      "id": "g100",
+      "player": "김현수",
+      "number": 141,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "normal",
+      "image": "assets/cards/141_김현수.webp"
+    },
+    {
+      "id": "g101",
+      "player": "유제모",
+      "number": 142,
+      "position": "OF",
+      "role": "OUTFIELDER",
+      "rarity": "normal",
+      "image": "assets/cards/142_유제모.webp"
+    },
+    {
+      "id": "g102",
+      "player": "손준이",
+      "number": 143,
+      "position": "-",
+      "role": "PLAYER",
+      "rarity": "normal",
+      "image": "assets/cards/143_손준이.webp"
+    },
+    {
+      "id": "g103",
+      "player": "전하원",
+      "number": 144,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "normal",
+      "image": "assets/cards/144_전하원.webp"
+    },
+    {
+      "id": "g104",
+      "player": "박성준",
+      "number": 145,
+      "position": "P",
+      "role": "PITCHER",
+      "rarity": "normal",
+      "image": "assets/cards/145_박성준.webp"
+    },
+    {
+      "id": "g105",
+      "player": "이선우",
+      "number": 146,
+      "position": "OF",
+      "role": "OUTFIELDER",
+      "rarity": "normal",
+      "image": "assets/cards/146_이선우.webp"
+    },
+    {
+      "id": "g106",
+      "player": "소한빈",
+      "number": 147,
+      "position": "OF",
+      "role": "OUTFIELDER",
+      "rarity": "normal",
+      "image": "assets/cards/147_소한빈.webp"
+    },
+    {
+      "id": "g107",
+      "player": "안우진",
+      "number": 148,
+      "position": "IF",
+      "role": "INFIELDER",
+      "rarity": "normal",
+      "image": "assets/cards/148_안우진.webp"
     }
   ]
 }
