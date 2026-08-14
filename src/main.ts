@@ -3,6 +3,7 @@ import './styles/global.css';
 import './styles/card.css';
 
 import { loadManifest, preloadImages } from './data';
+import { FRAME_IMAGES } from './ui/cardView';
 import { getTodayDraw } from './daily';
 import { clearParticles } from './fx/particles';
 import { splashScreen } from './screens/splash';
@@ -15,7 +16,7 @@ const root = document.getElementById('app')!;
 
 async function boot(): Promise<void> {
   const manifest = await loadManifest();
-  preloadImages([manifest.backImage]);
+  preloadImages([manifest.backImage, ...Object.values(FRAME_IMAGES)]);
 
   let current: ScreenController | null = null;
 

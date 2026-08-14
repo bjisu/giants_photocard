@@ -6,6 +6,14 @@ function placeholderMark(card: Card): string {
   return card.number >= 0 ? `${card.number}` : card.player.slice(0, 1);
 }
 
+/** 희귀도별 프레임 이미지 (브론즈 < 실버 < 골드 < 다이아) */
+export const FRAME_IMAGES: Record<Card['rarity'], string> = {
+  normal: 'assets/frame/bronze.webp',
+  rare: 'assets/frame/silver.webp',
+  epic: 'assets/frame/gold.webp',
+  legendary: 'assets/frame/diamond.webp',
+};
+
 function positionLabel(card: Card): string {
   if (card.position === '감독') return 'MANAGER';
   if (card.position === '코치') return 'COACH';
@@ -26,15 +34,14 @@ export function buildCardFront(card: Card): HTMLElement {
         <span class="ph-name">${card.player}</span>
       </div>
     </div>
-    <div class="card-topbar"><span class="brand">Giants</span><span class="year">2026</span></div>
     <div class="card-info">
       <span class="pos-badge">${card.role ?? positionLabel(card)}</span>
       <div class="name-line">
         ${card.number >= 0 ? `<span class="num">#${card.number}</span>` : ''}
         <span class="name">${card.player}</span>
       </div>
-      <div class="card-footer"><span>BUSAN · LOTTE GIANTS</span><span class="brand-sm">Giants</span></div>
     </div>
+    <img class="frame-img" src="${FRAME_IMAGES[card.rarity]}" alt="" draggable="false" />
     <i class="shine" aria-hidden="true"></i>
   `;
   const photo = el.querySelector('.card-photo') as HTMLElement;

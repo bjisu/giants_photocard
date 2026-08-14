@@ -10,8 +10,18 @@
 .card-front {
   display: flex;
   flex-direction: column;
-  border: 2.5px solid var(--frame, var(--r-normal));
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.14);
+  background: linear-gradient(180deg, #0c1b36, #081426);
+}
+
+/* 희귀도 프레임 이미지: 사진/이름 위, 반짝임 아래 */
+.frame-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+  user-select: none;
 }
 
 .rarity-normal {
@@ -31,9 +41,13 @@
   --frame-glow: var(--r-legend-glow);
 }
 
+/* 프레임 투명창(좌우 ~20%, 상 25%, 하 82%)에 맞춰 배치 — 가장자리는 프레임 밑으로 */
 .card-photo {
   position: absolute;
-  inset: 0;
+  top: 23.5%;
+  bottom: 15.5%;
+  left: 18%;
+  right: 18%;
   background: linear-gradient(180deg, #e8ecf2 0%, #cfd8e4 100%);
 }
 
@@ -71,45 +85,25 @@
   color: var(--ink-dim);
 }
 
-.card-topbar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 9px 12px;
-  z-index: 2;
-  background: linear-gradient(180deg, rgba(5, 15, 34, 0.55), transparent);
-}
-
-.card-topbar .brand {
-  font-style: italic;
-  font-weight: 900;
-  font-size: 14px;
-  color: #fff;
-  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
-}
-
-.card-topbar .year {
-  font-size: 10px;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  color: #fff;
-  background: var(--red);
-  padding: 3px 8px;
-  border-radius: 999px;
-}
-
 .card-info {
   position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 2;
-  padding: 34px 13px 10px;
+  left: 18%;
+  right: 18%;
+  bottom: 17%;
+  z-index: 1;
+  padding: 30px 10px 8px;
   background: linear-gradient(180deg, transparent, rgba(5, 15, 34, 0.88) 42%, rgba(5, 15, 34, 0.96));
+}
+
+/* 프레임별 투명창 하단 높이 보정 */
+.rarity-rare .card-info {
+  bottom: 17.3%;
+}
+.rarity-epic .card-info {
+  bottom: 18.1%;
+}
+.rarity-legendary .card-info {
+  bottom: 19.5%;
 }
 
 .pos-badge {
@@ -154,24 +148,6 @@
 .name-line .signed {
   color: var(--r-legend);
   font-size: calc(var(--card-w) * 0.06);
-}
-
-.card-footer {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 7px;
-  padding-top: 6px;
-  border-top: 1px solid rgba(255, 255, 255, 0.18);
-  font-size: 8.5px;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  color: rgba(234, 241, 251, 0.75);
-}
-
-.card-footer .brand-sm {
-  font-style: italic;
-  font-weight: 900;
-  color: var(--red);
 }
 
 /* ---------- 뒷면 ---------- */
