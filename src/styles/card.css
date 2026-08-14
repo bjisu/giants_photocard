@@ -51,12 +51,12 @@
   background: linear-gradient(180deg, #eef1f6 0%, #d6dde8 100%);
 }
 
-/* 증명사진처럼: 인물 전체가 잘리지 않고 하단 기준으로 온전히 보이게 */
+/* 바스트샷: 창 세로를 꽉 채우고 좌우를 크롭해 얼굴·가슴이 중앙에 크게 */
 .card-photo img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
-  object-position: center bottom;
+  object-fit: cover;
+  object-position: center;
   display: block;
 }
 

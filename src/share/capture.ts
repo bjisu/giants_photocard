@@ -87,12 +87,16 @@ export async function captureCard(card: Card): Promise<Blob> {
   ctx.fillStyle = studio;
   ctx.fillRect(win.x, win.y, win.w, win.h);
 
+  ctx.save();
+  ctx.beginPath();
+  ctx.rect(win.x, win.y, win.w, win.h);
+  ctx.clip();
   if (img) {
-    // 증명사진처럼: contain + 하단 정렬 (인물이 잘리지 않게)
-    const scale = Math.min(win.w / img.width, win.h / img.height);
+    // 바스트샷: cover + 중앙 정렬 (창 세로 채우고 좌우 크롭)
+    const scale = Math.max(win.w / img.width, win.h / img.height);
     const dw = img.width * scale;
     const dh = img.height * scale;
-    ctx.drawImage(img, win.x + (win.w - dw) / 2, win.y + win.h - dh, dw, dh);
+    ctx.drawImage(img, win.x + (win.w - dw) / 2, win.y + (win.h - dh) / 2, dw, dh);
   } else {
     const pg = ctx.createLinearGradient(0, win.y, 0, win.y + win.h);
     pg.addColorStop(0, '#143263');
@@ -115,6 +119,7 @@ export async function captureCard(card: Card): Promise<Blob> {
   dim.addColorStop(1, 'rgba(7,16,32,0.82)');
   ctx.fillStyle = dim;
   ctx.fillRect(win.x, win.y + win.h - dimH, win.w, dimH);
+  ctx.restore();
 
   // 번호·이름 (중앙 정렬)
   const infoBottomY = cardY + cardH * (1 - INFO_BOTTOM[card.rarity]);
