@@ -13,12 +13,12 @@ const FRAME: Record<string, string> = {
 };
 
 /* 화면 카드와 동일한 프레임 투명창 배치 비율 (card.css 참고) */
-const WINDOW = { left: 0.18, right: 0.18, top: 0.235, bottom: 0.155 };
+const WINDOW = { left: 0.18, right: 0.18, top: 0.235, bottom: 0.15 };
 const INFO_BOTTOM: Record<string, number> = {
-  normal: 0.17,
-  rare: 0.173,
-  epic: 0.181,
-  legendary: 0.195,
+  normal: 0.19,
+  rare: 0.192,
+  epic: 0.2,
+  legendary: 0.215,
 };
 
 function loadImage(src: string): Promise<HTMLImageElement | null> {
@@ -80,11 +80,19 @@ export async function captureCard(card: Card): Promise<Blob> {
     w: cardW * (1 - WINDOW.left - WINDOW.right),
     h: cardH * (1 - WINDOW.top - WINDOW.bottom),
   };
+  // 증명사진 배경 (화면과 동일한 라이트 그라디언트)
+  const studio = ctx.createLinearGradient(0, win.y, 0, win.y + win.h);
+  studio.addColorStop(0, '#eef1f6');
+  studio.addColorStop(1, '#d6dde8');
+  ctx.fillStyle = studio;
+  ctx.fillRect(win.x, win.y, win.w, win.h);
+
   if (img) {
-    const scale = Math.max(win.w / img.width, win.h / img.height);
+    // 증명사진처럼: contain + 하단 정렬 (인물이 잘리지 않게)
+    const scale = Math.min(win.w / img.width, win.h / img.height);
     const dw = img.width * scale;
     const dh = img.height * scale;
-    ctx.drawImage(img, win.x + (win.w - dw) / 2, win.y, dw, dh);
+    ctx.drawImage(img, win.x + (win.w - dw) / 2, win.y + win.h - dh, dw, dh);
   } else {
     const pg = ctx.createLinearGradient(0, win.y, 0, win.y + win.h);
     pg.addColorStop(0, '#143263');
@@ -99,38 +107,37 @@ export async function captureCard(card: Card): Promise<Blob> {
     ctx.fillText(mark, win.x + win.w / 2, win.y + win.h / 2);
   }
 
-  // 뱃지 스타일 텍스트 (보직 알약 + 번호·이름 알약)
+  // 번호·이름 가독성용 딤 처리 (화면과 동일한 그라디언트)
+  const dimH = win.h * 0.42;
+  const dim = ctx.createLinearGradient(0, win.y + win.h - dimH, 0, win.y + win.h);
+  dim.addColorStop(0, 'rgba(7,16,32,0)');
+  dim.addColorStop(0.42, 'rgba(7,16,32,0.45)');
+  dim.addColorStop(1, 'rgba(7,16,32,0.82)');
+  ctx.fillStyle = dim;
+  ctx.fillRect(win.x, win.y + win.h - dimH, win.w, dimH);
+
+  // 번호·이름 (중앙 정렬)
   const infoBottomY = cardY + cardH * (1 - INFO_BOTTOM[card.rarity]);
   ctx.textBaseline = 'alphabetic';
-  ctx.textAlign = 'left';
-  // 다이아 프레임 안쪽 장식까지 피해 전 등급 공통 26% 지점에서 시작
-  const textX = cardX + cardW * 0.26;
-
-  const roleText = card.role ?? card.position;
-  ctx.font = '800 19px sans-serif';
-  const roleW = ctx.measureText(roleText).width;
-  ctx.fillStyle = '#e11d3f';
-  roundRect(ctx, textX, infoBottomY - 96, roleW + 28, 34, 17);
-  ctx.fill();
-  ctx.fillStyle = '#fff';
-  ctx.fillText(roleText, textX + 14, infoBottomY - 72);
-
-  ctx.font = 'italic 900 34px sans-serif';
   const numText = card.number >= 0 ? `NO.${card.number}` : '';
+  ctx.font = 'italic 900 30px sans-serif';
   const numW = numText ? ctx.measureText(numText).width : 0;
+  ctx.font = '800 36px sans-serif';
+  const nameW = ctx.measureText(card.player).width;
   const gap = numText ? 12 : 0;
-  const textBase = infoBottomY - 16;
-  ctx.shadowColor = 'rgba(0,0,0,.55)';
-  ctx.shadowBlur = 6;
-  ctx.shadowOffsetY = 1;
-  ctx.fillStyle = '#e11d3f';
-  if (numText) ctx.fillText(numText, textX, textBase);
-  ctx.fillStyle = '#eaf1fb';
-  ctx.font = '800 34px sans-serif';
-  ctx.fillText(card.player, textX + numW + gap, textBase);
-  ctx.shadowColor = 'transparent';
-  ctx.shadowBlur = 0;
-  ctx.shadowOffsetY = 0;
+  const totalW = numW + gap + nameW;
+  let tx = cardX + cardW / 2 - totalW / 2;
+  const textBase = infoBottomY;
+  ctx.textAlign = 'left';
+  if (numText) {
+    ctx.font = 'italic 900 30px sans-serif';
+    ctx.fillStyle = '#ff6b83';
+    ctx.fillText(numText, tx, textBase);
+    tx += numW + gap;
+  }
+  ctx.font = '800 36px sans-serif';
+  ctx.fillStyle = '#ffffff';
+  ctx.fillText(card.player, tx, textBase);
   ctx.restore();
 
   // 희귀도 프레임 아트웍 합성

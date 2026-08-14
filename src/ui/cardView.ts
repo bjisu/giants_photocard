@@ -14,12 +14,6 @@ export const FRAME_IMAGES: Record<Card['rarity'], string> = {
   legendary: 'assets/frame/diamond.webp',
 };
 
-function positionLabel(card: Card): string {
-  if (card.position === '감독') return 'MANAGER';
-  if (card.position === '코치') return 'COACH';
-  return card.position;
-}
-
 /**
  * 카드 앞면 DOM.
  * 이미지 로드 실패 시 플레이스홀더(이니셜/등번호)로 대체하고 콘솔 경고만 남긴다.
@@ -35,7 +29,6 @@ export function buildCardFront(card: Card): HTMLElement {
       </div>
     </div>
     <div class="card-info">
-      <span class="pos-badge">${card.role ?? positionLabel(card)}</span>
       <div class="name-line">
         ${card.number >= 0 ? `<span class="num">NO.${card.number}</span>` : ''}
         <span class="name">${card.player}</span>

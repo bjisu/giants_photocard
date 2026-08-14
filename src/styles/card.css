@@ -45,18 +45,31 @@
 .card-photo {
   position: absolute;
   top: 23.5%;
-  bottom: 15.5%;
+  bottom: 15%;
   left: 18%;
   right: 18%;
-  background: linear-gradient(180deg, #e8ecf2 0%, #cfd8e4 100%);
+  background: linear-gradient(180deg, #eef1f6 0%, #d6dde8 100%);
 }
 
+/* 증명사진처럼: 인물 전체가 잘리지 않고 하단 기준으로 온전히 보이게 */
 .card-photo img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: top center;
+  object-fit: contain;
+  object-position: center bottom;
   display: block;
+}
+
+/* 번호·이름 가독성용 딤 처리 (살짝) */
+.card-photo::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 42%;
+  pointer-events: none;
+  background: linear-gradient(180deg, transparent, rgba(7, 16, 32, 0.45) 42%, rgba(7, 16, 32, 0.82));
 }
 
 /* 플레이스홀더 (이미지 없을 때) */
@@ -87,39 +100,30 @@
 
 .card-info {
   position: absolute;
-  left: 24%;
+  left: 20%;
   right: 20%;
-  bottom: 17.5%;
+  bottom: 19%;
   z-index: 1;
+  text-align: center;
 }
 
 /* 프레임별 투명창 하단 높이 보정 */
 .rarity-rare .card-info {
-  bottom: 17.3%;
+  bottom: 19.2%;
 }
 .rarity-epic .card-info {
-  bottom: 18.1%;
+  bottom: 20%;
 }
 .rarity-legendary .card-info {
-  bottom: 21%;
-  left: 27%;
-}
-
-.pos-badge {
-  display: inline-block;
-  font-size: 9.5px;
-  font-weight: 800;
-  letter-spacing: 0.04em;
-  color: #fff;
-  background: var(--red);
-  padding: 4px 10px;
-  border-radius: 999px;
-  margin-bottom: 6px;
+  bottom: 21.5%;
+  left: 23%;
+  right: 23%;
 }
 
 .name-line {
   display: inline-flex;
   align-items: baseline;
+  justify-content: center;
   gap: 8px;
   white-space: nowrap;
 }
@@ -132,8 +136,8 @@
   font-style: italic;
   font-weight: 900;
   font-size: calc(var(--card-w) * 0.06);
-  color: var(--red);
-  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  color: #ff6b83;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.45);
   letter-spacing: 0.02em;
 }
 
