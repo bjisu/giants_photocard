@@ -9,8 +9,6 @@ export const CONFIG = {
   SPLASH_MS: 2000,
   /** 5초 건너뛰기 노출 */
   SHOW_SKIP: true,
-  /** 연타 보조(길게 눌러 한 번에 열기) 버튼 */
-  ACCESSIBLE_OPEN: true,
   /** 하루 1회 컬렉션 제한 */
   DAILY_LIMIT: true,
   /** 일일 제한 리셋 기준 타임존 (KST) */
@@ -39,7 +37,6 @@ export const COPY = {
   tear: {
     guide: '마구 탭해서 포장을 뜯어보세요!',
     gauge: '개봉 {n}%',
-    holdToOpen: '꾹 눌러서 한 번에 열기',
   },
   reveal: {
     guide: '운명의 한 장을 선택하세요',

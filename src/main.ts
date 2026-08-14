@@ -60,4 +60,19 @@ async function boot(): Promise<void> {
   app.go('SPLASH');
 }
 
+// 더블탭 확대 방지
+let lastTouchEnd = 0;
+document.addEventListener(
+  'touchend',
+  (e) => {
+    const now = Date.now();
+    if (now - lastTouchEnd < 300) e.preventDefault();
+    lastTouchEnd = now;
+  },
+  { passive: false },
+);
+// 핀치 줌 방지 (iOS)
+document.addEventListener('gesturestart', (e) => e.preventDefault());
+document.addEventListener('dblclick', (e) => e.preventDefault());
+
 void boot();

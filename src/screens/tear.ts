@@ -23,7 +23,6 @@ export function tearScreen(root: HTMLElement, app: AppContext): ScreenController
     </div>
     <div class="tear-bottom">
       <div class="gauge"><div class="gauge-fill"></div><span class="gauge-label">개봉 0%</span></div>
-      ${CONFIG.ACCESSIBLE_OPEN ? `<button class="hold-open" type="button">${COPY.tear.holdToOpen}</button>` : ''}
     </div>
   `;
   root.appendChild(el);
@@ -60,7 +59,6 @@ export function tearScreen(root: HTMLElement, app: AppContext): ScreenController
   let finished = false;
   let flown = 0;
   let idleTimer = 0;
-  let holdTimer = 0;
   const timers: number[] = [];
 
   const scheduleIdleHint = () => {
@@ -109,8 +107,6 @@ export function tearScreen(root: HTMLElement, app: AppContext): ScreenController
 
   const onTap = (e: PointerEvent) => {
     if (finished) return;
-    // 보조 버튼은 별도 처리
-    if ((e.target as HTMLElement).closest('.hold-open')) return;
     taps++;
     scheduleIdleHint();
     const progress = Math.min(taps / CONFIG.TAPS_TO_OPEN, 1);
@@ -124,33 +120,9 @@ export function tearScreen(root: HTMLElement, app: AppContext): ScreenController
   };
   el.addEventListener('pointerdown', onTap);
 
-  // 접근성: 길게 눌러 자동 개봉
-  const holdBtn = el.querySelector('.hold-open') as HTMLButtonElement | null;
-  const stopHold = () => window.clearInterval(holdTimer);
-  if (holdBtn) {
-    holdBtn.addEventListener('pointerdown', (e) => {
-      e.stopPropagation();
-      stopHold();
-      holdTimer = window.setInterval(() => {
-        taps += 2;
-        const progress = Math.min(taps / CONFIG.TAPS_TO_OPEN, 1);
-        render(progress);
-        haptics.tap();
-        if (progress >= 1) {
-          stopHold();
-          void finish();
-        }
-      }, 120);
-    });
-    for (const ev of ['pointerup', 'pointerleave', 'pointercancel'] as const) {
-      holdBtn.addEventListener(ev, stopHold);
-    }
-  }
-
   return {
     destroy() {
       window.clearTimeout(idleTimer);
-      stopHold();
       timers.forEach(clearTimeout);
       el.remove();
     },
