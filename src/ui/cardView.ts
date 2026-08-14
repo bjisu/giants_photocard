@@ -37,7 +37,6 @@ export function buildCardFront(card: Card): HTMLElement {
     <div class="card-info">
       <span class="pos-badge">${card.role ?? positionLabel(card)}</span>
       <div class="name-line">
-        ${card.number >= 0 ? `<span class="num">#${card.number}</span>` : ''}
         <span class="name">${card.player}</span>
       </div>
     </div>

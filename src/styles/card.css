@@ -124,14 +124,6 @@
   gap: 6px;
 }
 
-.name-line .num {
-  font-style: italic;
-  font-weight: 900;
-  font-size: calc(var(--card-w) * 0.085);
-  color: var(--red);
-  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
-}
-
 .name-line .name {
   font-weight: 800;
   font-size: calc(var(--card-w) * 0.085);

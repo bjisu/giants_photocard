@@ -122,14 +122,9 @@ export async function captureCard(card: Card): Promise<Blob> {
   ctx.fillStyle = '#fff';
   ctx.fillText(roleText, textX + 12, infoBottomY - 69);
 
-  ctx.font = 'italic 900 44px sans-serif';
-  ctx.fillStyle = '#e11d3f';
-  const numText = card.number >= 0 ? `#${card.number} ` : '';
-  ctx.fillText(numText, textX, infoBottomY - 18);
-  const numWidth = ctx.measureText(numText).width;
   ctx.fillStyle = '#eaf1fb';
   ctx.font = '800 44px sans-serif';
-  ctx.fillText(card.player, textX + numWidth, infoBottomY - 18);
+  ctx.fillText(card.player, textX, infoBottomY - 18);
   ctx.restore();
 
   // 희귀도 프레임 아트웍 합성
