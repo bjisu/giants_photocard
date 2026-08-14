@@ -630,22 +630,6 @@ button {
     font-size: 16px;
     font-weight: 700;
   }
-
-  .rotate-icon {
-    font-size: 44px;
-    margin-bottom: 12px;
-    animation: rotate-hint 1.6s ease-in-out infinite;
-  }
-
-  @keyframes rotate-hint {
-    0%,
-    100% {
-      transform: rotate(0);
-    }
-    50% {
-      transform: rotate(90deg);
-    }
-  }
 }
 
 /* 접근성: 모션 최소화 */

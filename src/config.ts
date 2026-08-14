@@ -45,12 +45,10 @@ export const COPY = {
     guide: '운명의 한 장을 선택하세요',
   },
   result: {
-    badge: '{RARITY}',
     legendary: '레전더리 카드 획득!',
     todayChip: '오늘의 카드',
     skip: '건너뛰기',
     countdown: '다음 컬렉션까지 {t}',
-    comeBack: '컬렉션은 하루에 한 번! 내일 다시 만나요',
   },
   share: {
     text: '{player} 카드를 뽑았어요! #롯데자이언츠 #포토카드컬렉션',
