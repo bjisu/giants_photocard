@@ -39,7 +39,7 @@ export function buildCardFront(card: Card): HTMLElement {
   `;
   const photo = el.querySelector('.card-photo') as HTMLElement;
   const img = new Image();
-  img.alt = `${card.player} 포토카드`;
+  img.alt = `${card.player} 포토배지`;
   img.draggable = false;
   img.onload = () => {
     photo.querySelector('.ph')?.remove();
@@ -60,7 +60,7 @@ export function buildCardBack(manifest: Manifest): HTMLElement {
     <div class="back-css" aria-hidden="true">
       <div class="back-ring"><span>G</span></div>
       <div class="back-title">GIANTS</div>
-      <div class="back-sub">PHOTO CARD · ${manifest.season}</div>
+      <div class="back-sub">PHOTO BADGE · ${manifest.season}</div>
     </div>
     <i class="shine" aria-hidden="true"></i>
   `;

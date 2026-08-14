@@ -25,7 +25,7 @@ export function revealScreen(root: HTMLElement, app: AppContext): ScreenControll
     const holder = document.createElement('button');
     holder.type = 'button';
     holder.className = `card-holder pos-${i}`;
-    holder.setAttribute('aria-label', `카드 ${i + 1} 선택`);
+    holder.setAttribute('aria-label', `배지 ${i + 1} 선택`);
     holder.appendChild(buildCardBack(app.manifest));
     holder.style.animationDelay = `${i * 80}ms`;
     fan.appendChild(holder);

@@ -106,7 +106,7 @@ export function resultScreen(root: HTMLElement, app: AppContext): ScreenControll
   }
 
   // ---- 저장 / 공유 / 팬톡 ----
-  const filename = `giants-photocard-${card.id}.png`;
+  const filename = `giants-photobadge-${card.id}.png`;
 
   el.querySelector('.btn-save')?.addEventListener('click', async () => {
     try {
@@ -125,9 +125,9 @@ export function resultScreen(root: HTMLElement, app: AppContext): ScreenControll
       const blob = await captureCard(card);
       const file = new File([blob], filename, { type: 'image/png' });
       if (navigator.canShare?.({ files: [file] })) {
-        await navigator.share({ files: [file], title: '롯데자이언츠 포토카드', text });
+        await navigator.share({ files: [file], title: '롯데자이언츠 포토배지', text });
       } else if (navigator.share) {
-        await navigator.share({ title: '롯데자이언츠 포토카드', text, url: location.href });
+        await navigator.share({ title: '롯데자이언츠 포토배지', text, url: location.href });
       } else {
         downloadBlob(blob, filename); // 폴백: 저장
         toast(COPY.share.saved);

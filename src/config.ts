@@ -29,10 +29,10 @@ export const RARITY = {
 
 export const COPY = {
   splash: {
-    loading: '포토카드 팩을 여는 중…',
+    loading: '포토배지 팩을 여는 중…',
     tapToStart: '탭하여 시작',
-    title: '선수단 포토카드',
-    subtitle: '2026 SEASON · PLAYER CARD COLLECTION',
+    title: '선수단 포토배지',
+    subtitle: '2026 SEASON · PLAYER BADGE COLLECTION',
   },
   tear: {
     guide: '마구 탭해서 포장을 뜯어보세요!',
@@ -42,13 +42,13 @@ export const COPY = {
     guide: '운명의 한 장을 선택하세요',
   },
   result: {
-    legendary: '레전더리 카드 획득!',
-    todayChip: '오늘의 카드',
+    legendary: '레전더리 배지 획득!',
+    todayChip: '오늘의 배지',
     skip: '건너뛰기',
     countdown: '다음 컬렉션까지 {t}',
   },
   share: {
-    text: '{player} 카드를 뽑았어요! #롯데자이언츠 #포토카드컬렉션',
+    text: '{player} 배지를 뽑았어요! #롯데자이언츠 #포토배지컬렉션',
     save: '저장',
     share: '공유',
     fanTalk: '팬톡에 자랑하기',
