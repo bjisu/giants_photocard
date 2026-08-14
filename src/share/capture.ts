@@ -63,15 +63,10 @@ export async function captureCard(card: Card): Promise<Blob> {
 
   const [img, frameImg] = await Promise.all([loadImage(card.image), loadImage(FRAME_IMAGES[card.rarity])]);
 
-  // 카드 바탕
+  // 프레임 밖은 페이지 배경 그대로 (카드 박스 없음)
   ctx.save();
   roundRect(ctx, cardX, cardY, cardW, cardH, 24);
   ctx.clip();
-  const cbg = ctx.createLinearGradient(0, cardY, 0, cardY + cardH);
-  cbg.addColorStop(0, '#0c1b36');
-  cbg.addColorStop(1, '#081426');
-  ctx.fillStyle = cbg;
-  ctx.fillRect(cardX, cardY, cardW, cardH);
 
   // 프레임 투명창에 사진 배치
   const win = {
@@ -130,19 +125,35 @@ export async function captureCard(card: Card): Promise<Blob> {
   ctx.font = '800 36px sans-serif';
   const nameW = ctx.measureText(card.player).width;
   const gap = numText ? 12 : 0;
-  const totalW = numW + gap + nameW;
-  let tx = cardX + cardW / 2 - totalW / 2;
-  const textBase = infoBottomY;
+  const maxLineW = win.w * 0.78;
   ctx.textAlign = 'left';
-  if (numText) {
+
+  const drawLine = (num: string, name: string, base: number) => {
     ctx.font = 'italic 900 30px sans-serif';
-    ctx.fillStyle = '#ff6b83';
-    ctx.fillText(numText, tx, textBase);
-    tx += numW + gap;
+    const nw = num ? ctx.measureText(num).width : 0;
+    ctx.font = '800 36px sans-serif';
+    const g = num ? 12 : 0;
+    const w = nw + g + ctx.measureText(name).width;
+    let tx = cardX + cardW / 2 - w / 2;
+    if (num) {
+      ctx.font = 'italic 900 30px sans-serif';
+      ctx.fillStyle = '#ff6b83';
+      ctx.fillText(num, tx, base);
+      tx += nw + g;
+    }
+    ctx.font = '800 36px sans-serif';
+    ctx.fillStyle = '#ffffff';
+    ctx.fillText(name, tx, base);
+  };
+
+  const tokens = card.player.split(' ');
+  if (numW + gap + nameW > maxLineW && tokens.length > 1) {
+    // 긴 이름은 2줄: 1줄 = NO.번호 + 첫 어절, 2줄 = 나머지
+    drawLine(numText, tokens[0], infoBottomY - 42);
+    drawLine('', tokens.slice(1).join(' '), infoBottomY);
+  } else {
+    drawLine(numText, card.player, infoBottomY);
   }
-  ctx.font = '800 36px sans-serif';
-  ctx.fillStyle = '#ffffff';
-  ctx.fillText(card.player, tx, textBase);
   ctx.restore();
 
   // 희귀도 프레임 아트웍 합성

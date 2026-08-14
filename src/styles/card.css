@@ -10,7 +10,7 @@
 .card-front {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(180deg, #0c1b36, #081426);
+  background: none;
 }
 
 /* 희귀도 프레임 이미지: 사진/이름 위, 반짝임 아래 */
@@ -120,12 +120,19 @@
   right: 23%;
 }
 
+/* 긴 이름(외국인 선수 등)은 2줄로 자동 줄바꿈 */
 .name-line {
   display: inline-flex;
   align-items: baseline;
   justify-content: center;
-  gap: 8px;
-  white-space: nowrap;
+  flex-wrap: wrap;
+  gap: 2px 8px;
+  line-height: 1.15;
+}
+
+.name-line .name {
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 .name-line .name {
